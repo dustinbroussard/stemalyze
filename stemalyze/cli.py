@@ -3,7 +3,7 @@ from pathlib import Path
 import soundfile as sf
 
 from .separate import separate
-from .analysis import analyze_vocals_melody, analyze_drums, bars_from_beats, analyze_harmony_other, quantize_melody_to_bars
+from .analysis import analyze_vocals_melody, analyze_drums, bars_from_beats, analyze_harmony_other, quantize_melody_to_bars, analyze_drum_onsets
 from .report import save_all
 
 def main():
@@ -20,6 +20,11 @@ def main():
     outdir = Path(args.out)
     outdir.mkdir(parents=True, exist_ok=True)
 
+    # Validate input exists early for better UX
+    audio_path = Path(args.audio)
+    if not audio_path.exists():
+        p.error(f"Audio file not found: {audio_path}")
+
     # 1) Separate stems
     stems = separate(args.audio, str(outdir), backend=args.backend, overwrite=args.overwrite)
 
@@ -27,8 +32,8 @@ def main():
     drums_info = analyze_drums(stems["drums"], sr=args.sample_rate, force_time_sig_beats=args.barsig)
 
     # compute audio duration from any stem
-    info = sf.info(stems["drums"])
-    duration = info.duration
+    info = sf.info(stems["drums"])  # duration is independent of sample rate
+    duration = float(info.duration)
 
     # 3) Bars from beats
     bars = bars_from_beats(drums_info, audio_duration=duration)
@@ -38,7 +43,9 @@ def main():
     bar_melody = quantize_melody_to_bars(notes, bars)
 
     # 5) Other → chords per bar
-    chords = analyze_harmony_other(stems["other"], bars, sr=args.sample_rate)
+    chords = analyze_harmony_other(stems["other"], bars, sr=args.sample_rate, bass_path=stems.get("bass"))
+    # 5b) Drums → per-bar kick/snare pattern (CPU-friendly)
+    drum_patterns = analyze_drum_onsets(stems["drums"], bars, sr=args.sample_rate)
 
     # 6) Save report
     meta = {
@@ -48,7 +55,7 @@ def main():
         "tempo_bpm": drums_info.tempo_bpm,
         "time_sig_beats": drums_info.time_sig_beats
     }
-    report_path = save_all(str(outdir), meta, bars, chords, bar_melody)
+    report_path = save_all(str(outdir), meta, bars, chords, bar_melody, drum_patterns)
 
     if args.debug:
         print("STEMS:", stems)

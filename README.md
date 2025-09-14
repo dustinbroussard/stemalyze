@@ -4,9 +4,9 @@ A modular Python CLI that:
 1) Separates an input audio file into **vocals, drums, bass, other** (via Demucs or Spleeter),
 2) Analyzes:  
    - **Vocals** → bar‑by‑bar **melody notes** (pitch → MIDI, note segments)  
-   - **Drums** → **BPM** and **time signature (3/4 vs 4/4 guess)**  
+   - **Drums** → **BPM** and **time signature (3/4 vs 4/4 guess)**, plus per‑bar **kick/snare 16‑step grid**  
    - **Other** → bar‑by‑bar **chord progression** (major/minor triads),
-3) Emits a synced, human‑readable **.txt report** with per‑bar details.
+3) Emits a synced, human‑readable **.txt report** with per‑bar details, including **bar‑level confidence summaries**.
 
 > Designed for CPU‑only machines. Separation will be the slowest step; analysis runs fine on CPU.
 
@@ -25,25 +25,31 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 ```
 
-### 2) Install Python deps
+### 2) Install Python deps (two options)
 ```bash
+# a) Editable install with console scripts (recommended)
+pip install -e .
+
+# Optional: install separation backends too
+# (installs demucs and spleeter; you may also install just one manually)
+pip install -e .[separation]
+
+# b) Or, basic deps without packaging
 pip install -r requirements.txt
 ```
 > First run of **crepe** will download a small model (~20MB).
 
-### 3) Install a **stem separation backend** (choose one)
-- **Demucs (recommended for quality; works on CPU)**  
-  ```bash
-  pip install demucs
-  ```
-  You can also use the demucs CLI if already installed.
-
-- **Spleeter (fastest on some CPUs)**  
-  ```bash
-  pip install spleeter
-  ```
+### 3) Install a stem separation backend (if you didn’t use extras)
+- Demucs (recommended for quality; works on CPU): `pip install demucs`
+- Spleeter (fast on some CPUs): `pip install spleeter`
 
 ### 4) Run the tool
+Using console scripts (after `pip install -e .`):
+```bash
+stemalyze /path/to/song.wav --backend demucs --out outdir
+```
+
+Or run directly from source:
 ```bash
 python -m stemalyze.cli /path/to/song.wav --backend demucs --out outdir
 ```
@@ -59,7 +65,12 @@ Options:
 The output folder will contain:
 - `stems/` with `vocals.wav`, `drums.wav`, `bass.wav`, `other.wav`
 - `analysis/` with intermediate JSON
+  - `drum_patterns.json` contains per‑bar kick/snare grids and onset times
 - `reports/<songname>_stemalyze_report.txt`
+
+### 5) Launch the GUI
+- With console script: `stemalyze-gui`
+- From source: `python gui.py`
 
 ---
 
@@ -105,6 +116,9 @@ stemalyze/
   harmony.py      # chord mapping utilities
   report.py       # txt report assembler
 requirements.txt
+pyproject.toml     # packaging + console entry points
+tests/
+  smoke.py         # lightweight checks (no pytest required)
 ```
 
 ---
@@ -114,6 +128,20 @@ requirements.txt
 - **No stems produced** → Ensure you installed `demucs` or `spleeter`. Try `--backend spleeter` if demucs fails.
 - **Wrong time signature** → Re‑run with `--barsig 3` or `--barsig 4`.
 - **Pitch looks jittery** → CREPE confidence threshold can be adjusted in `analysis.py` (`CREPE_CONF_THRESH`).
+- **Demucs fails with CUDA/torchaudio error (e.g., libtorch_cuda.so)** → Your environment has a CUDA‑built torchaudio/torch but no CUDA. On CPU‑only machines either:
+  - Prefer `--backend spleeter`, or
+  - Install CPU builds: `pip install --upgrade torch torchaudio --index-url https://download.pytorch.org/whl/cpu` then reinstall `demucs`.
+  The CLI will automatically fall back to Spleeter if Demucs fails.
+
+- **Console script not found after install** → Ensure the active Python environment’s `bin` (Linux/macOS) or `Scripts` (Windows) dir is on your PATH. Alternatively, run via `python -m stemalyze.cli` or `python gui.py`.
+
+---
+
+## Development
+
+- Editable install: `pip install -e .` (optionally `-e .[separation]`)
+- Run smoke tests: `python -m tests.smoke`
+- Lint/type-checking not configured; keep code style consistent with repository.
 
 ---
 

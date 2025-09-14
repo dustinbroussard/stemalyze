@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stemalyze"
+version = "0.1.1"
+description = "CPU-friendly stem separation + musical analysis (CLI and GUI)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Stemalyze"}]
+keywords = ["audio", "music", "analysis", "separation", "librosa", "demucs", "spleeter"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "librosa>=0.10.1",
+  "soundfile",
+  "tqdm",
+  "crepe",
+]
+
+[project.optional-dependencies]
+separation = [
+  "demucs",
+  "spleeter",
+]
+
+[project.scripts]
+stemalyze = "stemalyze.cli:main"
+stemalyze-gui = "gui:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["stemalyze*"]
+
+[tool.setuptools]
+py-modules = ["gui"]

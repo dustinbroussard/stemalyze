@@ -4,13 +4,11 @@ from typing import List, Dict, Optional, Tuple
 import numpy as np
 import soundfile as sf
 import librosa
-import librosa.display  # noqa
-from tqdm import tqdm
+import librosa.display  # noqa: F401
 
-from .harmony import best_chord_from_chroma
+from .harmony import best_chord_from_chroma, label_blue_third, smooth_chord_sequence
 
 CREPE_CONF_THRESH = 0.5  # drop low-confidence pitch frames
-PITCH_SMOOTH_HZ = 35.0   # median filter bandwidth for smoothing to reduce vibrato jitter
 
 @dataclass
 class MelodyNote:
@@ -48,7 +46,11 @@ def load_mono(path: str, sr: int) -> np.ndarray:
     if y.ndim > 1:
         y = np.mean(y, axis=1)
     if file_sr != sr:
-        y = librosa.resample(y, orig_sr=file_sr, target_sr=sr, res_type="soxr_hq")
+        try:
+            y = librosa.resample(y, orig_sr=file_sr, target_sr=sr, res_type="soxr_hq")
+        except Exception:
+            # Fallback for environments without soxr backend
+            y = librosa.resample(y, orig_sr=file_sr, target_sr=sr, res_type="kaiser_best")
     return y
 
 def analyze_vocals_melody(vocals_path: str, sr: int = 22050) -> List[MelodyNote]:
@@ -187,28 +189,62 @@ def analyze_drums(drums_path: str, sr: int = 22050, force_time_sig_beats: Option
         downbeat_offset=int(downbeat_offset)
     )
 
-def bars_from_beats(drums: DrumTiming, audio_duration: float) -> List[Tuple[int,float,float]]:
+def bars_from_beats(drums: DrumTiming, audio_duration: float) -> List[Tuple[int, float, float]]:
     beats = np.array(drums.beat_times, dtype=float)
     if len(beats) < 2:
         # fallback: one bar for whole song
-        return [(1, 0.0, audio_duration)]
-    tsig = drums.time_sig_beats
-    off = drums.downbeat_offset
-    bar_bounds = []
+        return [(1, 0.0, float(audio_duration))]
+    tsig = int(max(1, drums.time_sig_beats))
+    off = int(max(0, drums.downbeat_offset))
+    bar_bounds: List[Tuple[int, float, float]] = []
     # Determine downbeats as beats at indices [off, off+tsig, off+2*tsig, ...]
     down_idx = np.arange(off, len(beats), tsig, dtype=int)
+    if down_idx.size == 0:
+        # If offset is beyond available beats, assume downbeat at first beat
+        down_idx = np.arange(0, len(beats), tsig, dtype=int)
     for i, di in enumerate(down_idx):
-        start = beats[di]
-        end = beats[down_idx[i+1]] if i+1 < len(down_idx) else audio_duration
-        bar_bounds.append((i+1, float(start), float(end)))
+        if di >= len(beats):
+            continue
+        start = float(beats[di])
+        if i + 1 < len(down_idx) and down_idx[i + 1] < len(beats):
+            end = float(beats[down_idx[i + 1]])
+        else:
+            end = float(audio_duration)
+        # Sanity clamp and skip degenerate bars
+        end = max(start, min(end, float(audio_duration)))
+        if end > start:
+            bar_bounds.append((i + 1, start, end))
+    # If still empty (extreme edge case), create a single bar
+    if not bar_bounds:
+        bar_bounds = [(1, 0.0, float(audio_duration))]
     return bar_bounds
 
-def analyze_harmony_other(other_path: str, bars: List[Tuple[int,float,float]], sr: int=22050) -> List[Dict]:
+def analyze_harmony_other(other_path: str, bars: List[Tuple[int,float,float]], sr: int=22050,
+                          bass_path: Optional[str] = None, bass_boost: float = 0.6) -> List[Dict]:
     y = load_mono(other_path, sr)
     # Use CQT chroma for tuning robustness
-    chroma = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=512, n_chroma=12)
-    times = librosa.frames_to_time(np.arange(chroma.shape[1]), sr=sr, hop_length=512)
+    hop = 512
+    chroma = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=hop, n_chroma=12)
+    if bass_path:
+        try:
+            yb = load_mono(bass_path, sr)
+            # Gentle low emphasis via negative preemphasis (acts as de-emphasis of highs)
+            try:
+                yb = librosa.effects.preemphasis(yb, coef=-0.85)
+            except Exception:
+                # If preemphasis unavailable, fallback to identity
+                pass
+            bch = librosa.feature.chroma_cqt(y=yb, sr=sr, hop_length=hop, n_chroma=12)
+            # Combine with clipping to avoid negative or exploding values
+            chroma = np.clip(chroma + bass_boost * bch, 0.0, None)
+        except Exception:
+            # If bass processing fails, continue with other-only chroma
+            pass
+    times = librosa.frames_to_time(np.arange(chroma.shape[1]), sr=sr, hop_length=hop)
     out = []
+    names = []
+    scores = []
+    perbar_v = []
     for (bar_idx, t0, t1) in bars:
         # average chroma over bar
         mask = (times >= t0) & (times < t1)
@@ -218,14 +254,22 @@ def analyze_harmony_other(other_path: str, bars: List[Tuple[int,float,float]], s
             v = chroma[:, fi0]
         else:
             v = np.mean(chroma[:, mask], axis=1)
-        chord, score = best_chord_from_chroma(v)
+        name, score = best_chord_from_chroma(v)
+        name = label_blue_third(name, v)
+        perbar_v.append(v)
+        names.append(name)
+        scores.append(float(score))
         out.append({
             "bar_index": int(bar_idx),
             "start": float(t0),
             "end": float(t1),
-            "chord": chord,
+            "chord": name,
             "score": float(score),
         })
+    # Stay-biased smoothing
+    smoothed = smooth_chord_sequence(names, scores, stay=0.85)
+    for i in range(len(out)):
+        out[i]["chord"] = smoothed[i]
     return out
 
 def quantize_melody_to_bars(notes: List[MelodyNote], bars: List[Tuple[int,float,float]]) -> Dict[int, List[Dict]]:
@@ -248,8 +292,59 @@ def quantize_melody_to_bars(notes: List[MelodyNote], bars: List[Tuple[int,float,
         by_bar[k].sort(key=lambda d: d["start"])
     return by_bar
 
+def analyze_drum_onsets(drums_path: str, bars: List[Tuple[int, float, float]], sr: int = 22050,
+                        hop_length: int = 512) -> List[Dict]:
+    """Detect drum onsets and classify as kick/snare via spectral centroid.
+    Returns per-bar dict with a 16-step grid string and onset times.
+    CPU-friendly heuristic: low centroid → kick; high centroid → snare.
+    """
+    y = load_mono(drums_path, sr)
+    # Global onset frames
+    onset_frames = librosa.onset.onset_detect(y=y, sr=sr, hop_length=hop_length, backtrack=True, units='frames')
+    onset_times = librosa.frames_to_time(onset_frames, sr=sr, hop_length=hop_length)
+    # Spectral centroid per frame for classification
+    S = np.abs(librosa.stft(y=y, n_fft=2048, hop_length=hop_length))
+    cent = librosa.feature.spectral_centroid(S=S, sr=sr)
+    cent = cent.flatten() if cent.ndim > 1 else cent
+    # Threshold: empirical; kick typically < ~1200 Hz centroid
+    kick_thresh_hz = 1200.0
+    patterns: List[Dict] = []
+    for (bar_idx, t0, t1) in bars:
+        dur = max(1e-6, t1 - t0)
+        # 16-step grid
+        grid = ["."] * 16
+        kicks: List[float] = []
+        snares: List[float] = []
+        for t in onset_times:
+            if t < t0 or t >= t1:
+                continue
+            fr = librosa.time_to_frames(t, sr=sr, hop_length=hop_length)
+            fr = int(min(max(fr, 0), len(cent) - 1)) if len(cent) else 0
+            c_hz = float(cent[fr]) if len(cent) else 0.0
+            # Map to 16-step index
+            step = int(np.floor((t - t0) / dur * 16.0))
+            step = int(np.clip(step, 0, 15))
+            if c_hz <= kick_thresh_hz:
+                kicks.append(float(t))
+                grid[step] = 'X' if grid[step] == 'S' else 'K'
+            else:
+                snares.append(float(t))
+                grid[step] = 'X' if grid[step] == 'K' else 'S'
+        patterns.append({
+            'bar_index': int(bar_idx),
+            'start': float(t0),
+            'end': float(t1),
+            'grid16': ''.join(grid),
+            'kick_times': kicks,
+            'snare_times': snares,
+            'kick_count': int(len(kicks)),
+            'snare_count': int(len(snares)),
+        })
+    return patterns
+
 def write_report_txt(path: str, meta: Dict, bars: List[Tuple[int,float,float]],
-                     chords: List[Dict], bar_melody: Dict[int, List[Dict]]):
+                     chords: List[Dict], bar_melody: Dict[int, List[Dict]],
+                     drum_patterns: Optional[List[Dict]] = None):
     lines = []
     lines.append("# STEMALYZE REPORT")
     lines.append(f"Source: {meta['source']}")
@@ -260,11 +355,29 @@ def write_report_txt(path: str, meta: Dict, bars: List[Tuple[int,float,float]],
     lines.append(f"Bars: {len(bars)}")
     lines.append("")
     chord_map = {c['bar_index']: c for c in chords}
+    drum_map = {d['bar_index']: d for d in (drum_patterns or [])}
     for (bar_idx, t0, t1) in bars:
         c = chord_map.get(bar_idx, None)
         chord_str = c['chord'] if c else "N/A"
-        lines.append(f"Bar {bar_idx:02d}  [{t0:08.3f} – {t1:08.3f}]  | Chord: {chord_str}")
-        for ev in bar_melody.get(bar_idx, []):
-            lines.append(f"  Melody: {ev['note']} x{ev['dur']:.2f}s (start {ev['start']:.3f}) conf {ev['conf']:.2f}")
+        chord_conf = f"{c['score']:.2f}" if c else "NA"
+        lines.append(f"Bar {bar_idx:02d}  [{t0:08.3f} – {t1:08.3f}]  | Chord: {chord_str} (conf {chord_conf})")
+        # Melody events
+        mel_events = bar_melody.get(bar_idx, [])
+        if mel_events:
+            # Bar-level melody confidence summary (duration-weighted)
+            dur = max(1e-6, t1 - t0)
+            tot = sum(e['dur'] for e in mel_events)
+            if tot > 0:
+                wavg = sum(e['conf'] * e['dur'] for e in mel_events) / tot
+            else:
+                wavg = 0.0
+            cover = min(1.0, tot / dur)
+            lines.append(f"  Melody summary: avg conf {wavg:.2f}, coverage {cover:.2f}")
+            for ev in mel_events:
+                lines.append(f"  Melody: {ev['note']} x{ev['dur']:.2f}s (start {ev['start']:.3f}) conf {ev['conf']:.2f}")
+        # Drum pattern grid per bar (kick/snare)
+        dpat = drum_map.get(bar_idx)
+        if dpat:
+            lines.append(f"  Drums 16-step: {dpat['grid16']}  (K:{dpat['kick_count']} S:{dpat['snare_count']})")
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))

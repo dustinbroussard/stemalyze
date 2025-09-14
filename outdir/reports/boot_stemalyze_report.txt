@@ -1,0 +1,1540 @@
+# STEMALYZE REPORT
+Source: /home/dusitn/stemalyze/boot.mp3
+Backend: demucs
+Sample Rate: 22050
+Global Tempo (BPM): 99.38
+Estimated Time Signature: 4/4
+Bars: 118
+
+Bar 01  [0003.599 – 0005.968]  | Chord: Gm (conf 0.61)
+  Drums 16-step: .SSS.SSS.S.S.S.S  (K:0 S:11)
+Bar 02  [0005.968 – 0008.336]  | Chord: Gm (conf 0.60)
+  Melody summary: avg conf 1.00, coverage 0.16
+  Melody: A♯3 x0.19s (start 7.860) conf 1.00
+  Melody: B3 x0.05s (start 8.046) conf 1.00
+  Melody: G3 x0.07s (start 8.173) conf 1.00
+  Melody: G3 x0.08s (start 8.255) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:9)
+Bar 03  [0008.336 – 0010.728]  | Chord: Gm (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.45
+  Melody: G3 x0.26s (start 8.336) conf 1.00
+  Melody: C4 x0.03s (start 8.649) conf 1.00
+  Melody: C4 x0.06s (start 8.684) conf 1.00
+  Melody: A♯3 x0.19s (start 8.754) conf 1.00
+  Melody: G♯3 x0.03s (start 8.963) conf 1.00
+  Melody: G3 x0.28s (start 8.998) conf 1.00
+  Melody: G♯3 x0.14s (start 9.276) conf 1.00
+  Melody: G3 x0.09s (start 9.416) conf 1.00
+  Drums 16-step: .SSS.S.SSSSSS..S  (K:0 S:11)
+Bar 04  [0010.728 – 0013.096]  | Chord: Gm (conf 0.70)
+  Melody summary: avg conf 1.00, coverage 0.51
+  Melody: G3 x0.09s (start 11.540) conf 1.00
+  Melody: F3 x0.09s (start 11.633) conf 1.00
+  Melody: G3 x0.17s (start 11.738) conf 1.00
+  Melody: G3 x0.24s (start 11.923) conf 1.00
+  Melody: A♯3 x0.08s (start 12.190) conf 1.00
+  Melody: A♯3 x0.20s (start 12.330) conf 1.00
+  Melody: G3 x0.27s (start 12.666) conf 1.00
+  Melody: A3 x0.06s (start 12.945) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S...S  (K:0 S:8)
+Bar 05  [0013.096 – 0015.464]  | Chord: Gm (conf 0.66)
+  Melody summary: avg conf 1.00, coverage 0.65
+  Melody: A♯3 x0.26s (start 13.177) conf 1.00
+  Melody: G♯3 x0.12s (start 13.491) conf 1.00
+  Melody: F♯3 x0.14s (start 13.619) conf 1.00
+  Melody: G3 x0.08s (start 13.804) conf 1.00
+  Melody: G3 x0.12s (start 13.909) conf 1.00
+  Melody: G3 x0.14s (start 14.187) conf 1.00
+  Melody: G3 x0.12s (start 14.408) conf 1.00
+  Melody: A♯3 x0.35s (start 14.536) conf 1.00
+  Melody: F3 x0.14s (start 14.919) conf 1.00
+  Melody: E3 x0.03s (start 15.058) conf 1.00
+  Melody: D♯3 x0.06s (start 15.093) conf 1.00
+  Drums 16-step: .S.S.S.S.K.S.S.S  (K:1 S:7)
+Bar 06  [0015.464 – 0017.856]  | Chord: Gm (conf 0.69)
+  Melody summary: avg conf 1.00, coverage 0.29
+  Melody: A♯3 x0.37s (start 16.904) conf 1.00
+  Melody: G3 x0.08s (start 17.403) conf 1.00
+  Melody: F♯3 x0.14s (start 17.485) conf 1.00
+  Melody: G3 x0.06s (start 17.624) conf 1.00
+  Melody: G3 x0.03s (start 17.821) conf 1.00
+  Drums 16-step: .SSS.S.K.S.S.S.S  (K:1 S:8)
+Bar 07  [0017.856 – 0020.225]  | Chord: G (conf 0.78)
+  Melody summary: avg conf 1.00, coverage 0.79
+  Melody: G3 x0.71s (start 17.856) conf 1.00
+  Melody: G3 x0.26s (start 18.564) conf 1.00
+  Melody: D3 x0.06s (start 19.006) conf 1.00
+  Melody: D3 x0.08s (start 19.064) conf 1.00
+  Melody: D♯3 x0.03s (start 19.145) conf 1.00
+  Melody: C♯4 x0.27s (start 19.238) conf 1.00
+  Melody: D4 x0.15s (start 19.586) conf 1.00
+  Melody: C4 x0.03s (start 19.911) conf 1.00
+  Melody: C4 x0.03s (start 19.946) conf 1.00
+  Melody: D4 x0.14s (start 19.981) conf 1.00
+  Melody: C♯4 x0.08s (start 20.120) conf 1.00
+  Melody: D4 x0.02s (start 20.201) conf 1.00
+  Drums 16-step: .S.S.S.S.SSS.KSS  (K:1 S:9)
+Bar 08  [0020.225 – 0022.593]  | Chord: Gm (conf 0.56)
+  Melody summary: avg conf 1.00, coverage 0.72
+  Melody: D4 x0.39s (start 20.225) conf 1.00
+  Melody: C4 x0.24s (start 20.643) conf 1.00
+  Melody: A♯3 x0.16s (start 20.886) conf 1.00
+  Melody: C4 x0.03s (start 21.119) conf 1.00
+  Melody: C4 x0.03s (start 21.153) conf 1.00
+  Melody: D4 x0.12s (start 21.188) conf 1.00
+  Melody: A♯3 x0.22s (start 21.583) conf 1.00
+  Melody: G3 x0.17s (start 21.966) conf 1.00
+  Melody: F♯3 x0.07s (start 22.233) conf 1.00
+  Melody: G3 x0.12s (start 22.303) conf 1.00
+  Melody: G♯3 x0.09s (start 22.419) conf 1.00
+  Melody: F♯3 x0.03s (start 22.535) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:10)
+Bar 09  [0022.593 – 0024.961]  | Chord: Gm (conf 0.57)
+  Melody summary: avg conf 1.00, coverage 0.65
+  Melody: A3 x0.02s (start 22.593) conf 1.00
+  Melody: G♯3 x0.06s (start 22.616) conf 1.00
+  Melody: A♯3 x0.13s (start 22.698) conf 1.00
+  Melody: G♯3 x0.05s (start 22.825) conf 1.00
+  Melody: A3 x0.10s (start 22.953) conf 1.00
+  Melody: F♯3 x0.08s (start 23.417) conf 1.00
+  Melody: G♯3 x0.05s (start 23.499) conf 1.00
+  Melody: E3 x0.12s (start 23.603) conf 1.00
+  Melody: D4 x0.16s (start 23.812) conf 1.00
+  Melody: C♯4 x0.31s (start 24.079) conf 1.00
+  Melody: C4 x0.03s (start 24.497) conf 1.00
+  Melody: D4 x0.39s (start 24.532) conf 1.00
+  Melody: C4 x0.03s (start 24.927) conf 1.00
+  Drums 16-step: .K.S.S.S.S.S.S.S  (K:1 S:8)
+Bar 10  [0024.961 – 0027.353]  | Chord: C (conf 0.57)
+  Melody summary: avg conf 1.00, coverage 0.84
+  Melody: C4 x0.13s (start 24.961) conf 1.00
+  Melody: C♯4 x0.03s (start 25.089) conf 1.00
+  Melody: C4 x0.09s (start 25.124) conf 1.00
+  Melody: D4 x0.07s (start 25.217) conf 1.00
+  Melody: C4 x0.03s (start 25.287) conf 1.00
+  Melody: A♯3 x0.24s (start 25.496) conf 1.00
+  Melody: C4 x0.12s (start 25.867) conf 1.00
+  Melody: D4 x0.19s (start 25.983) conf 1.00
+  Melody: C4 x0.05s (start 26.169) conf 1.00
+  Melody: A♯3 x0.42s (start 26.215) conf 1.00
+  Melody: G3 x0.03s (start 26.657) conf 1.00
+  Melody: A♯3 x0.29s (start 26.703) conf 1.00
+  Melody: A3 x0.20s (start 26.993) conf 1.00
+  Melody: A♯3 x0.07s (start 27.191) conf 1.00
+  Melody: G♯3 x0.06s (start 27.283) conf 1.00
+  Drums 16-step: .SKS.SSS.K.S.S.S  (K:2 S:8)
+Bar 11  [0027.353 – 0029.722]  | Chord: D (conf 0.55)
+  Melody summary: avg conf 1.00, coverage 0.72
+  Melody: A3 x0.08s (start 27.353) conf 1.00
+  Melody: G3 x0.08s (start 27.434) conf 1.00
+  Melody: F♯3 x0.05s (start 27.527) conf 1.00
+  Melody: G3 x0.14s (start 27.574) conf 1.00
+  Melody: A3 x0.13s (start 27.713) conf 1.00
+  Melody: G3 x0.05s (start 28.003) conf 1.00
+  Melody: A3 x0.09s (start 28.050) conf 1.00
+  Melody: A♯3 x0.08s (start 28.143) conf 1.00
+  Melody: G♯3 x0.03s (start 28.259) conf 1.00
+  Melody: A♯3 x0.07s (start 28.294) conf 1.00
+  Melody: C4 x0.03s (start 28.363) conf 1.00
+  Melody: F♯4 x0.08s (start 28.746) conf 1.00
+  Melody: G4 x0.09s (start 28.828) conf 1.00
+  Melody: F4 x0.05s (start 28.920) conf 1.00
+  Melody: F♯4 x0.07s (start 28.967) conf 1.00
+  Melody: F4 x0.09s (start 29.037) conf 1.00
+  Melody: G4 x0.23s (start 29.129) conf 1.00
+  Melody: F♯4 x0.12s (start 29.362) conf 1.00
+  Melody: G4 x0.14s (start 29.478) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.K.S  (K:1 S:9)
+Bar 12  [0029.722 – 0032.090]  | Chord: G (conf 0.55)
+  Melody summary: avg conf 1.00, coverage 0.85
+  Melody: D♯3 x0.12s (start 29.977) conf 1.00
+  Melody: B3 x0.03s (start 30.174) conf 1.00
+  Melody: C♯4 x0.20s (start 30.209) conf 1.00
+  Melody: B3 x0.06s (start 30.407) conf 1.00
+  Melody: C4 x0.03s (start 30.465) conf 1.00
+  Melody: C♯4 x0.45s (start 30.499) conf 1.00
+  Melody: C4 x0.58s (start 30.952) conf 1.00
+  Melody: C4 x0.06s (start 31.533) conf 1.00
+  Melody: C4 x0.12s (start 31.591) conf 1.00
+  Melody: A♯3 x0.30s (start 31.718) conf 1.00
+  Melody: B3 x0.05s (start 32.020) conf 1.00
+  Melody: C4 x0.02s (start 32.067) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 13  [0032.090 – 0034.482]  | Chord: Gm (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: C♯4 x0.31s (start 32.102) conf 1.00
+  Melody: C4 x0.15s (start 32.415) conf 1.00
+  Melody: B3 x0.03s (start 32.566) conf 1.00
+  Melody: A♯3 x0.08s (start 32.601) conf 1.00
+  Melody: G3 x0.16s (start 32.740) conf 1.00
+  Melody: G3 x0.13s (start 32.903) conf 1.00
+  Melody: G♯3 x0.08s (start 33.030) conf 1.00
+  Melody: G3 x0.20s (start 33.112) conf 1.00
+  Melody: G3 x0.19s (start 33.495) conf 1.00
+  Melody: F♯3 x0.05s (start 33.692) conf 1.00
+  Melody: G♯3 x0.03s (start 33.750) conf 1.00
+  Melody: A♯3 x0.10s (start 33.808) conf 1.00
+  Melody: C4 x0.16s (start 33.913) conf 1.00
+  Melody: C4 x0.31s (start 34.168) conf 1.00
+  Drums 16-step: .K.S.S.S.S.S...S  (K:1 S:6)
+Bar 14  [0034.482 – 0036.850]  | Chord: F#m (conf 0.63)
+  Melody summary: avg conf 1.00, coverage 0.78
+  Melody: C4 x0.02s (start 34.482) conf 1.00
+  Melody: C4 x0.35s (start 34.586) conf 1.00
+  Melody: A♯3 x0.19s (start 34.934) conf 1.00
+  Melody: C4 x0.12s (start 35.236) conf 1.00
+  Melody: C♯4 x0.16s (start 35.352) conf 1.00
+  Melody: D♯4 x0.06s (start 35.515) conf 1.00
+  Melody: D4 x0.07s (start 35.596) conf 1.00
+  Melody: D♯4 x0.08s (start 35.666) conf 1.00
+  Melody: C4 x0.08s (start 35.910) conf 1.00
+  Melody: B3 x0.06s (start 35.991) conf 1.00
+  Melody: A3 x0.05s (start 36.049) conf 1.00
+  Melody: G3 x0.16s (start 36.107) conf 1.00
+  Melody: F♯3 x0.10s (start 36.270) conf 1.00
+  Melody: G3 x0.23s (start 36.374) conf 1.00
+  Melody: F♯3 x0.03s (start 36.606) conf 1.00
+  Melody: G3 x0.09s (start 36.757) conf 1.00
+  Drums 16-step: .S.S.S.S.SSS...S  (K:0 S:8)
+Bar 15  [0036.850 – 0039.242]  | Chord: G (conf 0.68)
+  Melody summary: avg conf 1.00, coverage 0.68
+  Melody: G3 x0.02s (start 36.850) conf 1.00
+  Melody: F♯3 x0.05s (start 36.873) conf 1.00
+  Melody: G3 x0.39s (start 36.955) conf 1.00
+  Melody: A3 x0.07s (start 37.361) conf 1.00
+  Melody: F♯3 x0.05s (start 37.465) conf 1.00
+  Melody: E3 x0.03s (start 37.512) conf 1.00
+  Melody: D♯3 x0.13s (start 37.547) conf 1.00
+  Melody: E3 x0.05s (start 37.674) conf 1.00
+  Melody: E3 x0.03s (start 37.721) conf 1.00
+  Melody: G♯3 x0.08s (start 37.767) conf 1.00
+  Melody: A3 x0.05s (start 37.860) conf 1.00
+  Melody: F♯3 x0.03s (start 37.930) conf 1.00
+  Melody: F3 x0.08s (start 37.965) conf 1.00
+  Melody: G3 x0.09s (start 38.266) conf 1.00
+  Melody: C♯4 x0.09s (start 38.638) conf 1.00
+  Melody: C4 x0.03s (start 38.731) conf 1.00
+  Melody: C♯4 x0.35s (start 38.893) conf 1.00
+  Drums 16-step: ...S..S..SS..S.S  (K:0 S:7)
+Bar 16  [0039.242 – 0041.610]  | Chord: G (conf 0.70)
+  Melody summary: avg conf 1.00, coverage 0.65
+  Melody: C♯4 x0.07s (start 39.242) conf 1.00
+  Melody: C♯4 x0.09s (start 39.427) conf 1.00
+  Melody: C♯4 x0.22s (start 39.787) conf 1.00
+  Melody: C4 x0.05s (start 40.078) conf 1.00
+  Melody: C4 x0.58s (start 40.124) conf 1.00
+  Melody: A♯3 x0.17s (start 40.925) conf 1.00
+  Melody: G♯3 x0.03s (start 41.099) conf 1.00
+  Melody: C4 x0.33s (start 41.285) conf 1.00
+  Drums 16-step: .S.S.S.S...S.S.S  (K:0 S:7)
+Bar 17  [0041.610 – 0043.979]  | Chord: Gm (conf 0.64)
+  Melody summary: avg conf 1.00, coverage 0.84
+  Melody: C4 x0.43s (start 41.610) conf 1.00
+  Melody: A♯3 x0.19s (start 42.040) conf 1.00
+  Melody: C♯4 x0.55s (start 42.353) conf 1.00
+  Melody: D♯4 x0.08s (start 42.899) conf 1.00
+  Melody: C♯4 x0.07s (start 42.980) conf 1.00
+  Melody: D4 x0.12s (start 43.050) conf 1.00
+  Melody: C4 x0.03s (start 43.294) conf 1.00
+  Melody: D4 x0.19s (start 43.352) conf 1.00
+  Melody: C♯4 x0.05s (start 43.630) conf 1.00
+  Melody: D4 x0.21s (start 43.677) conf 1.00
+  Melody: C4 x0.09s (start 43.886) conf 1.00
+  Drums 16-step: .S.S.KSS.SSSS..S  (K:1 S:9)
+Bar 18  [0043.979 – 0046.370]  | Chord: Cm (conf 0.63)
+  Melody summary: avg conf 1.00, coverage 0.75
+  Melody: C4 x0.07s (start 43.979) conf 1.00
+  Melody: B3 x0.03s (start 44.071) conf 1.00
+  Melody: G3 x0.03s (start 44.362) conf 1.00
+  Melody: C4 x0.13s (start 44.466) conf 1.00
+  Melody: A♯3 x0.13s (start 44.594) conf 1.00
+  Melody: B3 x0.07s (start 44.815) conf 1.00
+  Melody: C♯4 x0.62s (start 44.907) conf 1.00
+  Melody: C4 x0.16s (start 45.604) conf 1.00
+  Melody: A♯3 x0.21s (start 45.767) conf 1.00
+  Melody: D4 x0.34s (start 46.034) conf 1.00
+  Drums 16-step: ...S.S.S.S.S.S.S  (K:0 S:7)
+Bar 19  [0046.370 – 0048.739]  | Chord: G (conf 0.65)
+  Melody summary: avg conf 1.00, coverage 0.71
+  Melody: D4 x0.44s (start 46.370) conf 1.00
+  Melody: E4 x0.08s (start 46.858) conf 1.00
+  Melody: C4 x0.14s (start 47.102) conf 1.00
+  Melody: C4 x0.06s (start 47.241) conf 1.00
+  Melody: C♯4 x0.12s (start 47.299) conf 1.00
+  Melody: F♯4 x0.06s (start 47.787) conf 1.00
+  Melody: G4 x0.13s (start 47.845) conf 1.00
+  Melody: F4 x0.17s (start 48.077) conf 1.00
+  Melody: G4 x0.49s (start 48.251) conf 1.00
+  Drums 16-step: .SSS.S.S..S..S.S  (K:0 S:8)
+Bar 20  [0048.739 – 0051.107]  | Chord: G (conf 0.73)
+  Melody summary: avg conf 1.00, coverage 0.79
+  Melody: G4 x0.23s (start 48.739) conf 1.00
+  Melody: G4 x0.30s (start 48.971) conf 1.00
+  Melody: F4 x0.17s (start 49.296) conf 1.00
+  Melody: D♯4 x0.12s (start 49.482) conf 1.00
+  Melody: G4 x0.23s (start 49.621) conf 1.00
+  Melody: A4 x0.03s (start 49.946) conf 1.00
+  Melody: G4 x0.12s (start 50.167) conf 1.00
+  Melody: C4 x0.05s (start 50.341) conf 1.00
+  Melody: C4 x0.16s (start 50.387) conf 1.00
+  Melody: C4 x0.37s (start 50.654) conf 1.00
+  Melody: C4 x0.08s (start 51.026) conf 1.00
+  Drums 16-step: S..S.S.S.S.S.S.S  (K:0 S:8)
+Bar 21  [0051.107 – 0053.499]  | Chord: D# (conf 0.73)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: C4 x0.23s (start 51.107) conf 1.00
+  Melody: C4 x0.17s (start 51.351) conf 1.00
+  Melody: C♯4 x0.07s (start 51.525) conf 1.00
+  Melody: C4 x0.10s (start 51.595) conf 1.00
+  Melody: C4 x0.03s (start 51.699) conf 1.00
+  Melody: A♯3 x0.14s (start 51.862) conf 1.00
+  Melody: B3 x0.06s (start 52.001) conf 1.00
+  Melody: F♯3 x0.07s (start 52.117) conf 1.00
+  Melody: G3 x0.03s (start 52.187) conf 1.00
+  Melody: C4 x0.03s (start 52.268) conf 1.00
+  Melody: C♯4 x0.56s (start 52.303) conf 1.00
+  Melody: B3 x0.05s (start 52.860) conf 1.00
+  Melody: A♯3 x0.15s (start 52.907) conf 1.00
+  Melody: C4 x0.19s (start 53.058) conf 1.00
+  Melody: C4 x0.10s (start 53.394) conf 1.00
+  Drums 16-step: ..SS.SSS.S.S.SSS  (K:0 S:10)
+Bar 22  [0053.499 – 0055.867]  | Chord: D (conf 0.70)
+  Melody summary: avg conf 1.00, coverage 0.78
+  Melody: C4 x0.19s (start 53.499) conf 1.00
+  Melody: A♯3 x0.06s (start 53.696) conf 1.00
+  Melody: C4 x0.23s (start 53.754) conf 1.00
+  Melody: B3 x0.03s (start 54.079) conf 1.00
+  Melody: A♯3 x0.24s (start 54.114) conf 1.00
+  Melody: A♯3 x0.07s (start 54.509) conf 1.00
+  Melody: C4 x0.22s (start 54.637) conf 1.00
+  Melody: A♯3 x0.03s (start 54.857) conf 1.00
+  Melody: G3 x0.12s (start 54.985) conf 1.00
+  Melody: G3 x0.28s (start 55.182) conf 1.00
+  Melody: G3 x0.16s (start 55.496) conf 1.00
+  Melody: F♯3 x0.06s (start 55.658) conf 1.00
+  Melody: G3 x0.15s (start 55.716) conf 1.00
+  Drums 16-step: .S.SS..S.S.S.S.S  (K:0 S:9)
+Bar 23  [0055.867 – 0058.236]  | Chord: Gm (conf 0.67)
+  Melody summary: avg conf 1.00, coverage 0.53
+  Melody: G3 x0.26s (start 55.867) conf 1.00
+  Melody: F♯3 x0.03s (start 56.123) conf 1.00
+  Melody: F3 x0.16s (start 56.157) conf 1.00
+  Melody: F♯3 x0.17s (start 56.320) conf 1.00
+  Melody: E3 x0.16s (start 56.494) conf 1.00
+  Melody: G3 x0.27s (start 57.597) conf 1.00
+  Melody: A♯3 x0.16s (start 57.922) conf 1.00
+  Melody: G3 x0.03s (start 58.201) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:10)
+Bar 24  [0058.236 – 0060.627]  | Chord: D (conf 0.68)
+  Melody summary: avg conf 1.00, coverage 0.73
+  Melody: G3 x0.45s (start 58.236) conf 1.00
+  Melody: G3 x0.19s (start 58.781) conf 1.00
+  Melody: F♯3 x0.03s (start 58.967) conf 1.00
+  Melody: A♯3 x0.24s (start 59.130) conf 1.00
+  Melody: G3 x0.19s (start 59.443) conf 1.00
+  Melody: G3 x0.17s (start 59.629) conf 1.00
+  Melody: F♯3 x0.12s (start 59.803) conf 1.00
+  Melody: G3 x0.12s (start 60.035) conf 1.00
+  Melody: A♯3 x0.19s (start 60.360) conf 1.00
+  Melody: G3 x0.03s (start 60.569) conf 1.00
+  Melody: G♯3 x0.02s (start 60.604) conf 1.00
+  Drums 16-step: .S.S.S.S.SS.SS.S  (K:0 S:10)
+Bar 25  [0060.627 – 0062.996]  | Chord: C (conf 0.77)
+  Melody summary: avg conf 1.00, coverage 0.79
+  Melody: G♯3 x0.05s (start 60.627) conf 1.00
+  Melody: G3 x0.23s (start 60.674) conf 1.00
+  Melody: A♯3 x0.10s (start 60.918) conf 1.00
+  Melody: G♯3 x0.03s (start 61.161) conf 1.00
+  Melody: A♯3 x0.13s (start 61.196) conf 1.00
+  Melody: C4 x0.34s (start 61.463) conf 1.00
+  Melody: A♯3 x0.49s (start 61.800) conf 1.00
+  Melody: A♯3 x0.16s (start 62.322) conf 1.00
+  Melody: C4 x0.08s (start 62.647) conf 1.00
+  Melody: C♯4 x0.27s (start 62.729) conf 1.00
+  Drums 16-step: S.S..K.SS.S..X.S  (K:3 S:7)
+Bar 26  [0062.996 – 0065.364]  | Chord: D# (conf 0.88)
+  Melody summary: avg conf 1.00, coverage 0.88
+  Melody: C4 x0.39s (start 63.112) conf 1.00
+  Melody: B3 x0.03s (start 63.507) conf 1.00
+  Melody: A♯3 x0.31s (start 63.553) conf 1.00
+  Melody: C4 x0.03s (start 63.866) conf 1.00
+  Melody: C♯4 x0.05s (start 63.925) conf 1.00
+  Melody: D4 x0.15s (start 63.971) conf 1.00
+  Melody: C4 x0.26s (start 64.122) conf 1.00
+  Melody: B3 x0.12s (start 64.377) conf 1.00
+  Melody: A♯3 x0.03s (start 64.493) conf 1.00
+  Melody: B3 x0.12s (start 64.540) conf 1.00
+  Melody: A♯3 x0.24s (start 64.679) conf 1.00
+  Melody: A♯3 x0.06s (start 65.027) conf 1.00
+  Melody: B3 x0.05s (start 65.086) conf 1.00
+  Melody: D4 x0.23s (start 65.132) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 27  [0065.364 – 0067.756]  | Chord: D (conf 0.85)
+  Melody summary: avg conf 1.00, coverage 0.92
+  Melody: D4 x0.51s (start 65.364) conf 1.00
+  Melody: D4 x0.17s (start 65.968) conf 1.00
+  Melody: D4 x1.52s (start 66.235) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 28  [0067.756 – 0070.124]  | Chord: D (conf 0.66)
+  Melody summary: avg conf 1.00, coverage 0.75
+  Melody: D4 x0.89s (start 67.756) conf 1.00
+  Melody: D♯4 x0.09s (start 68.650) conf 1.00
+  Melody: G♯4 x0.10s (start 68.928) conf 1.00
+  Melody: G4 x0.03s (start 69.207) conf 1.00
+  Melody: A4 x0.03s (start 69.242) conf 1.00
+  Melody: A4 x0.03s (start 69.277) conf 1.00
+  Melody: A4 x0.10s (start 69.323) conf 1.00
+  Melody: G♯4 x0.05s (start 69.428) conf 1.00
+  Melody: G♯4 x0.09s (start 69.486) conf 1.00
+  Melody: G4 x0.34s (start 69.788) conf 1.00
+  Drums 16-step: ...S.S..S.SS.S.S  (K:0 S:8)
+Bar 29  [0070.124 – 0072.493]  | Chord: Gm (conf 0.82)
+  Melody summary: avg conf 1.00, coverage 0.95
+  Melody: G4 x0.07s (start 70.124) conf 1.00
+  Melody: F4 x0.05s (start 70.217) conf 1.00
+  Melody: E4 x0.06s (start 70.264) conf 1.00
+  Melody: D4 x0.33s (start 70.322) conf 1.00
+  Melody: C♯4 x0.35s (start 70.647) conf 1.00
+  Melody: D4 x0.21s (start 70.995) conf 1.00
+  Melody: C4 x0.15s (start 71.250) conf 1.00
+  Melody: D4 x0.06s (start 71.459) conf 1.00
+  Melody: C♯4 x0.06s (start 71.517) conf 1.00
+  Melody: C♯4 x0.92s (start 71.576) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 30  [0072.493 – 0074.884]  | Chord: D (conf 0.78)
+  Melody summary: avg conf 1.00, coverage 0.93
+  Melody: C♯4 x0.22s (start 72.493) conf 1.00
+  Melody: D4 x0.08s (start 72.713) conf 1.00
+  Melody: D4 x0.05s (start 72.795) conf 1.00
+  Melody: D4 x0.08s (start 72.841) conf 1.00
+  Melody: D♯4 x0.05s (start 72.922) conf 1.00
+  Melody: D4 x0.03s (start 72.969) conf 1.00
+  Melody: A♯3 x0.21s (start 73.038) conf 1.00
+  Melody: C4 x0.09s (start 73.271) conf 1.00
+  Melody: D4 x0.35s (start 73.363) conf 1.00
+  Melody: D4 x0.29s (start 73.735) conf 1.00
+  Melody: C4 x0.05s (start 74.118) conf 1.00
+  Melody: C♯4 x0.12s (start 74.165) conf 1.00
+  Melody: D4 x0.13s (start 74.281) conf 1.00
+  Melody: C♯4 x0.27s (start 74.408) conf 1.00
+  Melody: D4 x0.21s (start 74.675) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 31  [0074.884 – 0077.253]  | Chord: Gm (conf 0.84)
+  Melody summary: avg conf 1.00, coverage 0.80
+  Melody: C♯4 x0.07s (start 75.000) conf 1.00
+  Melody: D4 x0.20s (start 75.070) conf 1.00
+  Melody: D4 x0.16s (start 75.291) conf 1.00
+  Melody: C4 x0.12s (start 75.476) conf 1.00
+  Melody: C♯4 x0.17s (start 75.720) conf 1.00
+  Melody: D4 x0.10s (start 75.894) conf 1.00
+  Melody: C♯4 x0.20s (start 75.999) conf 1.00
+  Melody: D4 x0.56s (start 76.196) conf 1.00
+  Melody: D4 x0.31s (start 76.928) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 32  [0077.253 – 0079.644]  | Chord: Cm (conf 0.75)
+  Melody summary: avg conf 1.00, coverage 0.81
+  Melody: C4 x0.21s (start 77.264) conf 1.00
+  Melody: C♯4 x0.06s (start 77.473) conf 1.00
+  Melody: C4 x0.13s (start 77.531) conf 1.00
+  Melody: B3 x0.06s (start 77.682) conf 1.00
+  Melody: C4 x0.23s (start 77.740) conf 1.00
+  Melody: A♯3 x0.05s (start 77.973) conf 1.00
+  Melody: B3 x0.08s (start 78.182) conf 1.00
+  Melody: C4 x0.07s (start 78.263) conf 1.00
+  Melody: D4 x0.03s (start 78.344) conf 1.00
+  Melody: C4 x0.27s (start 78.391) conf 1.00
+  Melody: C4 x0.26s (start 78.692) conf 1.00
+  Melody: C♯4 x0.13s (start 78.983) conf 1.00
+  Melody: C♯4 x0.33s (start 79.110) conf 1.00
+  Melody: C♯4 x0.05s (start 79.598) conf 1.00
+  Drums 16-step: .S.S.S.S.SSSSS.S  (K:0 S:10)
+Bar 33  [0079.644 – 0081.990]  | Chord: Gm (conf 0.86)
+  Melody summary: avg conf 1.00, coverage 0.60
+  Melody: C♯4 x0.14s (start 79.644) conf 1.00
+  Melody: D4 x0.03s (start 79.784) conf 1.00
+  Melody: C♯4 x0.03s (start 79.958) conf 1.00
+  Melody: B3 x0.05s (start 79.993) conf 1.00
+  Melody: C4 x0.06s (start 80.039) conf 1.00
+  Melody: G4 x0.36s (start 80.596) conf 1.00
+  Melody: D4 x0.16s (start 81.072) conf 1.00
+  Melody: C♯4 x0.03s (start 81.235) conf 1.00
+  Melody: D4 x0.24s (start 81.270) conf 1.00
+  Melody: D4 x0.10s (start 81.665) conf 1.00
+  Melody: C4 x0.20s (start 81.792) conf 1.00
+  Drums 16-step: .S.S.S.S.SSS.S.S  (K:0 S:9)
+Bar 34  [0081.990 – 0084.381]  | Chord: Cm (conf 0.76)
+  Melody summary: avg conf 1.00, coverage 0.84
+  Melody: C4 x0.45s (start 81.990) conf 1.00
+  Melody: C4 x0.05s (start 82.442) conf 1.00
+  Melody: C♯4 x0.09s (start 82.489) conf 1.00
+  Melody: B3 x0.28s (start 82.582) conf 1.00
+  Melody: C5 x0.03s (start 83.023) conf 1.00
+  Melody: D♯5 x0.13s (start 83.069) conf 1.00
+  Melody: D4 x0.19s (start 83.290) conf 1.00
+  Melody: C♯4 x0.26s (start 83.476) conf 1.00
+  Melody: D4 x0.22s (start 83.731) conf 1.00
+  Melody: C♯4 x0.05s (start 83.952) conf 1.00
+  Melody: D4 x0.28s (start 84.021) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 35  [0084.381 – 0086.750]  | Chord: D (conf 0.85)
+  Melody summary: avg conf 1.00, coverage 0.91
+  Melody: D4 x0.20s (start 84.521) conf 1.00
+  Melody: D4 x0.06s (start 84.718) conf 1.00
+  Melody: D4 x0.48s (start 84.776) conf 1.00
+  Melody: F♯4 x0.44s (start 85.264) conf 1.00
+  Melody: D4 x0.37s (start 85.763) conf 1.00
+  Melody: C♯4 x0.05s (start 86.134) conf 1.00
+  Melody: D4 x0.57s (start 86.181) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 36  [0086.750 – 0089.141]  | Chord: D (conf 0.73)
+  Melody summary: avg conf 1.00, coverage 0.71
+  Melody: D4 x0.43s (start 86.750) conf 1.00
+  Melody: D4 x0.07s (start 87.179) conf 1.00
+  Melody: D♯4 x0.20s (start 87.249) conf 1.00
+  Melody: D4 x0.08s (start 87.446) conf 1.00
+  Melody: D♯4 x0.08s (start 87.528) conf 1.00
+  Melody: D4 x0.16s (start 87.609) conf 1.00
+  Melody: C♯4 x0.05s (start 87.771) conf 1.00
+  Melody: D♯4 x0.13s (start 87.818) conf 1.00
+  Melody: G3 x0.08s (start 88.038) conf 1.00
+  Melody: A3 x0.07s (start 88.131) conf 1.00
+  Melody: G4 x0.36s (start 88.781) conf 1.00
+  Drums 16-step: .S.S.SS..S.S.S.S  (K:0 S:10)
+Bar 37  [0089.141 – 0091.510]  | Chord: Gm (conf 0.77)
+  Melody summary: avg conf 1.00, coverage 0.71
+  Melody: G4 x0.29s (start 89.246) conf 1.00
+  Melody: G3 x0.03s (start 89.734) conf 1.00
+  Melody: C♯4 x0.16s (start 89.815) conf 1.00
+  Melody: C4 x0.14s (start 90.035) conf 1.00
+  Melody: C4 x0.03s (start 90.279) conf 1.00
+  Melody: D4 x0.37s (start 90.314) conf 1.00
+  Melody: C♯4 x0.03s (start 90.744) conf 1.00
+  Melody: D4 x0.24s (start 90.778) conf 1.00
+  Melody: C4 x0.15s (start 91.022) conf 1.00
+  Melody: D4 x0.21s (start 91.301) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 38  [0091.510 – 0093.785]  | Chord: F#m (conf 0.75)
+  Melody summary: avg conf 1.00, coverage 0.77
+  Melody: D4 x0.45s (start 91.510) conf 1.00
+  Melody: D4 x0.16s (start 91.963) conf 1.00
+  Melody: D♯4 x0.06s (start 92.125) conf 1.00
+  Melody: D4 x0.15s (start 92.183) conf 1.00
+  Melody: C4 x0.03s (start 92.357) conf 1.00
+  Melody: D4 x0.19s (start 92.671) conf 1.00
+  Melody: D4 x0.26s (start 92.938) conf 1.00
+  Melody: C4 x0.21s (start 93.193) conf 1.00
+  Melody: A♯3 x0.23s (start 93.553) conf 1.00
+  Drums 16-step: .S.S.S.S.SSS.SS.  (K:0 S:9)
+Bar 39  [0093.785 – 0096.270]  | Chord: Gm (conf 0.59)
+  Melody summary: avg conf 1.00, coverage 0.79
+  Melody: A♯3 x0.09s (start 93.785) conf 1.00
+  Melody: A3 x0.34s (start 94.006) conf 1.00
+  Melody: A♯3 x0.07s (start 94.343) conf 1.00
+  Melody: G3 x0.15s (start 94.424) conf 1.00
+  Melody: A♯3 x0.42s (start 94.737) conf 1.00
+  Melody: A♯3 x0.31s (start 95.260) conf 1.00
+  Melody: G3 x0.35s (start 95.620) conf 1.00
+  Melody: A3 x0.14s (start 95.980) conf 1.00
+  Melody: G3 x0.10s (start 96.165) conf 1.00
+  Drums 16-step: ..S.SS.S.S.S.S.S  (K:0 S:8)
+Bar 40  [0096.270 – 0098.638]  | Chord: Gm (conf 0.74)
+  Melody summary: avg conf 1.00, coverage 0.69
+  Melody: G3 x0.48s (start 96.270) conf 1.00
+  Melody: F♯3 x0.09s (start 96.746) conf 1.00
+  Melody: G3 x0.45s (start 96.839) conf 1.00
+  Melody: F♯3 x0.06s (start 97.292) conf 1.00
+  Melody: A♯3 x0.07s (start 97.396) conf 1.00
+  Melody: G♯3 x0.03s (start 97.466) conf 1.00
+  Melody: G3 x0.17s (start 97.501) conf 1.00
+  Melody: G♯3 x0.19s (start 97.675) conf 1.00
+  Melody: F♯3 x0.08s (start 97.860) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 41  [0098.638 – 0101.007]  | Chord: Gm (conf 0.60)
+  Melody summary: avg conf 1.00, coverage 0.47
+  Melody: A2 x0.06s (start 99.765) conf 1.00
+  Melody: A♯2 x0.03s (start 99.823) conf 1.00
+  Melody: C3 x0.03s (start 99.869) conf 1.00
+  Melody: C♯3 x0.03s (start 99.904) conf 1.00
+  Melody: A♯3 x0.53s (start 100.055) conf 1.00
+  Melody: G♯3 x0.06s (start 100.589) conf 1.00
+  Melody: A♯3 x0.21s (start 100.647) conf 1.00
+  Melody: G3 x0.15s (start 100.856) conf 1.00
+  Drums 16-step: .S.S.S....S..S.S  (K:0 S:7)
+Bar 42  [0101.007 – 0103.398]  | Chord: Fm (conf 0.55)
+  Melody summary: avg conf 1.00, coverage 0.82
+  Melody: G♯3 x0.09s (start 101.018) conf 1.00
+  Melody: G3 x0.08s (start 101.111) conf 1.00
+  Melody: G♯3 x0.09s (start 101.193) conf 1.00
+  Melody: F♯3 x0.03s (start 101.297) conf 1.00
+  Melody: G3 x0.19s (start 101.506) conf 1.00
+  Melody: F3 x0.22s (start 101.703) conf 1.00
+  Melody: A♯3 x0.21s (start 101.959) conf 1.00
+  Melody: G♯3 x0.16s (start 102.168) conf 1.00
+  Melody: G3 x0.46s (start 102.365) conf 1.00
+  Melody: D♯3 x0.06s (start 102.876) conf 1.00
+  Melody: D3 x0.33s (start 103.050) conf 1.00
+  Melody: D♯3 x0.02s (start 103.375) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.SSS  (K:0 S:9)
+Bar 43  [0103.398 – 0105.767]  | Chord: Am (conf 0.57)
+  Melody summary: avg conf 1.00, coverage 0.60
+  Melody: D♯3 x0.03s (start 103.398) conf 1.00
+  Melody: C♯3 x0.08s (start 103.457) conf 1.00
+  Melody: D♯3 x0.09s (start 103.561) conf 1.00
+  Melody: G3 x0.14s (start 103.689) conf 1.00
+  Melody: F♯3 x0.05s (start 103.828) conf 1.00
+  Melody: F♯3 x0.09s (start 103.874) conf 1.00
+  Melody: C3 x0.12s (start 104.734) conf 1.00
+  Melody: C♯4 x0.81s (start 104.954) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.SSS  (K:0 S:9)
+Bar 44  [0105.767 – 0108.135]  | Chord: Am (conf 0.55)
+  Melody summary: avg conf 1.00, coverage 0.93
+  Melody: C♯4 x0.26s (start 105.767) conf 1.00
+  Melody: C♯4 x0.09s (start 106.022) conf 1.00
+  Melody: C4 x0.03s (start 106.115) conf 1.00
+  Melody: C4 x0.10s (start 106.150) conf 1.00
+  Melody: A♯3 x0.19s (start 106.255) conf 1.00
+  Melody: A3 x0.03s (start 106.440) conf 1.00
+  Melody: B3 x0.05s (start 106.510) conf 1.00
+  Melody: C♯4 x0.51s (start 106.556) conf 1.00
+  Melody: D4 x0.09s (start 107.067) conf 1.00
+  Melody: D4 x0.38s (start 107.160) conf 1.00
+  Melody: A♯3 x0.16s (start 107.555) conf 1.00
+  Melody: D4 x0.17s (start 107.799) conf 1.00
+  Melody: A3 x0.12s (start 108.019) conf 1.00
+  Drums 16-step: .S.S.SSS.S.S.S.S  (K:0 S:10)
+Bar 45  [0108.135 – 0110.527]  | Chord: D (conf 0.57)
+  Melody summary: avg conf 1.00, coverage 0.69
+  Melody: A3 x0.10s (start 108.135) conf 1.00
+  Melody: A♯3 x0.05s (start 108.356) conf 1.00
+  Melody: G♯3 x0.05s (start 108.426) conf 1.00
+  Melody: G♯3 x0.08s (start 108.635) conf 1.00
+  Melody: A♯3 x0.16s (start 108.727) conf 1.00
+  Melody: F3 x0.03s (start 108.936) conf 1.00
+  Melody: A3 x0.27s (start 108.994) conf 1.00
+  Melody: A3 x0.16s (start 109.261) conf 1.00
+  Melody: B3 x0.03s (start 109.424) conf 1.00
+  Melody: G4 x0.42s (start 109.575) conf 1.00
+  Melody: G4 x0.14s (start 110.144) conf 1.00
+  Melody: C♯4 x0.13s (start 110.364) conf 1.00
+  Melody: C♯4 x0.03s (start 110.492) conf 1.00
+  Drums 16-step: .S.S.SSS.SSS.SSS  (K:0 S:12)
+Bar 46  [0110.527 – 0112.895]  | Chord: Gm (conf 0.72)
+  Melody summary: avg conf 1.00, coverage 0.95
+  Melody: C♯4 x0.43s (start 110.527) conf 1.00
+  Melody: G♯3 x0.06s (start 110.980) conf 1.00
+  Melody: C♯4 x1.09s (start 111.061) conf 1.00
+  Melody: A♯3 x0.19s (start 112.176) conf 1.00
+  Melody: C4 x0.49s (start 112.408) conf 1.00
+  Drums 16-step: .SSS.S.S.SSS.S.S  (K:0 S:10)
+Bar 47  [0112.895 – 0115.264]  | Chord: D# (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.58
+  Melody: C4 x0.13s (start 112.895) conf 1.00
+  Melody: B3 x0.06s (start 113.023) conf 1.00
+  Melody: C♯4 x0.09s (start 113.104) conf 1.00
+  Melody: C4 x0.13s (start 113.197) conf 1.00
+  Melody: B3 x0.06s (start 113.325) conf 1.00
+  Melody: C♯4 x0.08s (start 113.406) conf 1.00
+  Melody: C4 x0.07s (start 113.488) conf 1.00
+  Melody: B2 x0.05s (start 114.405) conf 1.00
+  Melody: B2 x0.03s (start 114.451) conf 1.00
+  Melody: F3 x0.05s (start 114.521) conf 1.00
+  Melody: A♯3 x0.12s (start 114.590) conf 1.00
+  Melody: C4 x0.41s (start 114.753) conf 1.00
+  Melody: C4 x0.10s (start 115.159) conf 1.00
+  Drums 16-step: .SSS.SSS.S.S.SSS  (K:0 S:11)
+Bar 48  [0115.264 – 0117.632]  | Chord: D (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.89
+  Melody: C4 x0.29s (start 115.264) conf 1.00
+  Melody: C4 x0.30s (start 115.554) conf 1.00
+  Melody: A♯3 x0.16s (start 115.868) conf 1.00
+  Melody: C4 x0.12s (start 116.169) conf 1.00
+  Melody: C♯4 x0.24s (start 116.286) conf 1.00
+  Melody: C4 x0.05s (start 116.529) conf 1.00
+  Melody: C♯4 x0.10s (start 116.576) conf 1.00
+  Melody: A♯3 x0.14s (start 116.727) conf 1.00
+  Melody: G3 x0.06s (start 116.936) conf 1.00
+  Melody: G3 x0.03s (start 116.994) conf 1.00
+  Melody: G3 x0.44s (start 117.029) conf 1.00
+  Melody: G3 x0.16s (start 117.470) conf 1.00
+  Drums 16-step: .S.S.K.S.SSS.S.S  (K:1 S:9)
+Bar 49  [0117.632 – 0120.024]  | Chord: C (conf 0.56)
+  Melody summary: avg conf 1.00, coverage 0.82
+  Melody: G3 x0.27s (start 117.632) conf 1.00
+  Melody: G3 x0.19s (start 117.899) conf 1.00
+  Melody: G♯3 x0.08s (start 118.085) conf 1.00
+  Melody: F♯3 x0.27s (start 118.190) conf 1.00
+  Melody: C4 x0.07s (start 118.793) conf 1.00
+  Melody: C♯4 x0.19s (start 118.863) conf 1.00
+  Melody: B3 x0.07s (start 119.060) conf 1.00
+  Melody: C♯4 x0.21s (start 119.130) conf 1.00
+  Melody: C♯4 x0.28s (start 119.409) conf 1.00
+  Melody: C4 x0.05s (start 119.687) conf 1.00
+  Melody: C♯4 x0.29s (start 119.734) conf 1.00
+  Drums 16-step: .S.S..SS.SSS.S.S  (K:0 S:9)
+Bar 50  [0120.024 – 0122.392]  | Chord: G (conf 0.74)
+  Melody summary: avg conf 1.00, coverage 0.69
+  Melody: C♯4 x0.75s (start 120.024) conf 1.00
+  Melody: D4 x0.03s (start 120.779) conf 1.00
+  Melody: C4 x0.07s (start 121.115) conf 1.00
+  Melody: C♯4 x0.06s (start 121.185) conf 1.00
+  Melody: C♯4 x0.16s (start 121.661) conf 1.00
+  Melody: A♯3 x0.24s (start 121.847) conf 1.00
+  Melody: B3 x0.06s (start 122.091) conf 1.00
+  Melody: D4 x0.24s (start 122.149) conf 1.00
+  Drums 16-step: ...S.K.S...S.SSS  (K:1 S:6)
+Bar 51  [0122.392 – 0124.784]  | Chord: D# (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.95
+  Melody: D4 x0.23s (start 122.392) conf 1.00
+  Melody: C4 x0.07s (start 122.625) conf 1.00
+  Melody: C4 x0.12s (start 122.694) conf 1.00
+  Melody: G♯3 x0.03s (start 122.822) conf 1.00
+  Melody: A♯3 x0.21s (start 122.857) conf 1.00
+  Melody: A♯3 x0.03s (start 123.077) conf 1.00
+  Melody: C♯4 x0.35s (start 123.112) conf 1.00
+  Melody: C♯4 x0.03s (start 123.460) conf 1.00
+  Melody: C♯4 x0.33s (start 123.495) conf 1.00
+  Melody: C4 x0.06s (start 123.820) conf 1.00
+  Melody: D4 x0.15s (start 123.902) conf 1.00
+  Melody: B3 x0.03s (start 124.064) conf 1.00
+  Melody: C4 x0.05s (start 124.099) conf 1.00
+  Melody: D4 x0.16s (start 124.145) conf 1.00
+  Melody: C4 x0.10s (start 124.366) conf 1.00
+  Melody: C♯4 x0.17s (start 124.471) conf 1.00
+  Melody: C♯4 x0.14s (start 124.645) conf 1.00
+  Drums 16-step: .S.S.S.S...SS..S  (K:0 S:7)
+Bar 52  [0124.784 – 0127.152]  | Chord: D# (conf 0.83)
+  Melody summary: avg conf 1.00, coverage 0.80
+  Melody: C♯4 x0.10s (start 124.784) conf 1.00
+  Melody: C4 x0.09s (start 124.889) conf 1.00
+  Melody: B3 x0.06s (start 124.981) conf 1.00
+  Melody: C4 x0.21s (start 125.039) conf 1.00
+  Melody: A♯3 x0.15s (start 125.248) conf 1.00
+  Melody: C4 x0.17s (start 125.608) conf 1.00
+  Melody: C4 x0.29s (start 125.782) conf 1.00
+  Melody: C4 x0.20s (start 126.224) conf 1.00
+  Melody: A♯3 x0.31s (start 126.444) conf 1.00
+  Melody: D4 x0.31s (start 126.839) conf 1.00
+  Drums 16-step: .S.S.KKS.K.S.S.S  (K:3 S:6)
+Bar 53  [0127.152 – 0129.521]  | Chord: G (conf 0.58)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: D4 x0.91s (start 127.152) conf 1.00
+  Melody: C♯4 x0.06s (start 128.058) conf 1.00
+  Melody: D♯4 x0.05s (start 128.139) conf 1.00
+  Melody: D4 x0.15s (start 128.186) conf 1.00
+  Melody: G4 x0.57s (start 128.511) conf 1.00
+  Melody: G4 x0.23s (start 129.289) conf 1.00
+  Drums 16-step: .S.S.S.S.S.SS..S  (K:0 S:8)
+Bar 54  [0129.521 – 0131.913]  | Chord: Gm (conf 0.74)
+  Melody summary: avg conf 1.00, coverage 0.88
+  Melody: F4 x0.06s (start 129.544) conf 1.00
+  Melody: F4 x0.45s (start 129.602) conf 1.00
+  Melody: E4 x0.05s (start 130.113) conf 1.00
+  Melody: F4 x0.19s (start 130.159) conf 1.00
+  Melody: E4 x0.05s (start 130.345) conf 1.00
+  Melody: F4 x0.26s (start 130.392) conf 1.00
+  Melody: D4 x0.07s (start 130.647) conf 1.00
+  Melody: D♯4 x0.03s (start 130.786) conf 1.00
+  Melody: D4 x0.27s (start 130.821) conf 1.00
+  Melody: C♯4 x0.37s (start 131.228) conf 1.00
+  Melody: C4 x0.31s (start 131.599) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 55  [0131.913 – 0134.281]  | Chord: D# (conf 0.68)
+  Melody summary: avg conf 1.00, coverage 0.75
+  Melody: C4 x0.17s (start 131.913) conf 1.00
+  Melody: B3 x0.26s (start 132.110) conf 1.00
+  Melody: C4 x0.13s (start 132.412) conf 1.00
+  Melody: A♯3 x0.06s (start 132.574) conf 1.00
+  Melody: C4 x0.06s (start 132.632) conf 1.00
+  Melody: C♯4 x0.07s (start 132.725) conf 1.00
+  Melody: C4 x0.09s (start 132.899) conf 1.00
+  Melody: A♯3 x0.44s (start 133.085) conf 1.00
+  Melody: B3 x0.30s (start 133.642) conf 1.00
+  Melody: C♯4 x0.10s (start 133.944) conf 1.00
+  Melody: B3 x0.05s (start 134.177) conf 1.00
+  Melody: C4 x0.06s (start 134.223) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:9)
+Bar 56  [0134.281 – 0136.649]  | Chord: D (conf 0.69)
+  Melody summary: avg conf 1.00, coverage 0.86
+  Melody: C4 x0.30s (start 134.281) conf 1.00
+  Melody: C4 x0.17s (start 134.711) conf 1.00
+  Melody: A♯3 x0.13s (start 134.885) conf 1.00
+  Melody: F♯3 x0.05s (start 135.070) conf 1.00
+  Melody: C♯4 x0.24s (start 135.140) conf 1.00
+  Melody: A♯3 x0.05s (start 135.419) conf 1.00
+  Melody: C4 x0.03s (start 135.477) conf 1.00
+  Melody: B3 x0.03s (start 135.546) conf 1.00
+  Melody: C4 x0.38s (start 135.581) conf 1.00
+  Melody: G3 x0.41s (start 135.988) conf 1.00
+  Melody: F♯3 x0.06s (start 136.394) conf 1.00
+  Melody: G3 x0.19s (start 136.464) conf 1.00
+  Drums 16-step: .S.S.K.S.S.S.S.S  (K:1 S:7)
+Bar 57  [0136.649 – 0139.018]  | Chord: Dm (conf 0.61)
+  Melody summary: avg conf 1.00, coverage 0.67
+  Melody: G3 x0.43s (start 136.649) conf 1.00
+  Melody: F♯3 x0.10s (start 137.079) conf 1.00
+  Melody: G3 x0.03s (start 137.183) conf 1.00
+  Melody: G♯3 x0.03s (start 137.218) conf 1.00
+  Melody: G3 x0.16s (start 137.358) conf 1.00
+  Melody: F3 x0.12s (start 137.625) conf 1.00
+  Melody: D♯3 x0.06s (start 137.752) conf 1.00
+  Melody: D3 x0.09s (start 137.810) conf 1.00
+  Melody: D3 x0.08s (start 138.043) conf 1.00
+  Melody: D2 x0.12s (start 138.182) conf 1.00
+  Melody: B2 x0.05s (start 138.646) conf 1.00
+  Melody: C3 x0.03s (start 138.693) conf 1.00
+  Melody: G3 x0.27s (start 138.751) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:12)
+Bar 58  [0139.018 – 0141.410]  | Chord: Gm (conf 0.66)
+  Melody summary: avg conf 1.00, coverage 0.80
+  Melody: G3 x0.02s (start 139.018) conf 1.00
+  Melody: G♯3 x0.09s (start 139.041) conf 1.00
+  Melody: G3 x0.62s (start 139.134) conf 1.00
+  Melody: A3 x0.22s (start 139.773) conf 1.00
+  Melody: A3 x0.03s (start 139.993) conf 1.00
+  Melody: G3 x0.16s (start 140.167) conf 1.00
+  Melody: G3 x0.06s (start 140.376) conf 1.00
+  Melody: G3 x0.14s (start 140.434) conf 1.00
+  Melody: F♯3 x0.05s (start 140.574) conf 1.00
+  Melody: G3 x0.03s (start 140.620) conf 1.00
+  Melody: G3 x0.03s (start 140.736) conf 1.00
+  Melody: A3 x0.23s (start 140.794) conf 1.00
+  Melody: A♯3 x0.21s (start 141.108) conf 1.00
+  Drums 16-step: .S.S.S.SS..S.S.S  (K:0 S:10)
+Bar 59  [0141.410 – 0143.801]  | Chord: Cm (conf 0.71)
+  Melody summary: avg conf 1.00, coverage 0.76
+  Melody: A♯3 x0.24s (start 141.572) conf 1.00
+  Melody: G♯3 x0.03s (start 141.827) conf 1.00
+  Melody: A♯3 x0.19s (start 141.978) conf 1.00
+  Melody: A3 x0.03s (start 142.245) conf 1.00
+  Melody: C4 x0.20s (start 142.280) conf 1.00
+  Melody: B3 x0.03s (start 142.478) conf 1.00
+  Melody: A♯3 x0.05s (start 142.512) conf 1.00
+  Melody: A3 x0.05s (start 142.559) conf 1.00
+  Melody: G♯3 x0.05s (start 142.675) conf 1.00
+  Melody: A3 x0.05s (start 142.721) conf 1.00
+  Melody: A♯3 x0.38s (start 142.768) conf 1.00
+  Melody: C4 x0.19s (start 143.151) conf 1.00
+  Melody: C♯4 x0.10s (start 143.476) conf 1.00
+  Melody: D4 x0.13s (start 143.581) conf 1.00
+  Melody: C♯4 x0.09s (start 143.708) conf 1.00
+  Drums 16-step: ..SS.S.S.S.S.S.S  (K:0 S:9)
+Bar 60  [0143.801 – 0146.170]  | Chord: Gm (conf 0.78)
+  Melody summary: avg conf 1.00, coverage 0.77
+  Melody: C♯4 x0.06s (start 143.801) conf 1.00
+  Melody: B3 x0.05s (start 143.871) conf 1.00
+  Melody: C4 x0.22s (start 143.917) conf 1.00
+  Melody: C4 x0.16s (start 144.138) conf 1.00
+  Melody: A3 x0.03s (start 144.324) conf 1.00
+  Melody: A♯3 x0.22s (start 144.358) conf 1.00
+  Melody: C♯4 x0.33s (start 144.660) conf 1.00
+  Melody: C4 x0.24s (start 145.090) conf 1.00
+  Melody: C5 x0.20s (start 145.392) conf 1.00
+  Melody: C4 x0.08s (start 145.845) conf 1.00
+  Melody: C♯4 x0.03s (start 145.926) conf 1.00
+  Melody: D4 x0.21s (start 145.961) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 61  [0146.170 – 0148.538]  | Chord: D (conf 0.85)
+  Melody summary: avg conf 1.00, coverage 0.96
+  Melody: D4 x0.10s (start 146.170) conf 1.00
+  Melody: D♯4 x0.37s (start 146.286) conf 1.00
+  Melody: D4 x0.27s (start 146.657) conf 1.00
+  Melody: A♯3 x0.08s (start 146.971) conf 1.00
+  Melody: C4 x0.10s (start 147.052) conf 1.00
+  Melody: D4 x0.84s (start 147.156) conf 1.00
+  Melody: D3 x0.50s (start 148.039) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 62  [0148.538 – 0150.906]  | Chord: D (conf 0.68)
+  Melody summary: avg conf 1.00, coverage 0.65
+  Melody: D3 x0.43s (start 148.538) conf 1.00
+  Melody: D4 x0.58s (start 149.014) conf 1.00
+  Melody: G♯4 x0.09s (start 149.664) conf 1.00
+  Melody: G♯4 x0.07s (start 149.966) conf 1.00
+  Melody: G♯5 x0.09s (start 150.094) conf 1.00
+  Melody: G♯5 x0.16s (start 150.314) conf 1.00
+  Melody: A♯4 x0.12s (start 150.790) conf 1.00
+  Drums 16-step: .SS..S....S..S.S  (K:0 S:6)
+Bar 63  [0150.906 – 0153.275]  | Chord: Gm (conf 0.75)
+  Melody summary: avg conf 1.00, coverage 0.88
+  Melody: A♯4 x0.20s (start 150.906) conf 1.00
+  Melody: A4 x0.07s (start 151.104) conf 1.00
+  Melody: D4 x0.26s (start 151.220) conf 1.00
+  Melody: C♯4 x0.30s (start 151.475) conf 1.00
+  Melody: D4 x0.20s (start 151.777) conf 1.00
+  Melody: A♯3 x0.08s (start 152.102) conf 1.00
+  Melody: C♯4 x0.07s (start 152.288) conf 1.00
+  Melody: D4 x0.20s (start 152.358) conf 1.00
+  Melody: C♯4 x0.15s (start 152.555) conf 1.00
+  Melody: C4 x0.13s (start 152.706) conf 1.00
+  Melody: C♯4 x0.15s (start 152.834) conf 1.00
+  Melody: D4 x0.29s (start 152.985) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 64  [0153.275 – 0155.667]  | Chord: D (conf 0.77)
+  Melody summary: avg conf 1.00, coverage 0.72
+  Melody: D4 x0.21s (start 153.275) conf 1.00
+  Melody: D♯4 x0.09s (start 153.484) conf 1.00
+  Melody: C♯4 x0.06s (start 153.728) conf 1.00
+  Melody: D4 x0.05s (start 153.786) conf 1.00
+  Melody: D4 x0.37s (start 154.192) conf 1.00
+  Melody: C4 x0.06s (start 154.564) conf 1.00
+  Melody: C♯4 x0.06s (start 154.622) conf 1.00
+  Melody: D4 x0.37s (start 154.680) conf 1.00
+  Melody: C4 x0.19s (start 155.086) conf 1.00
+  Melody: B3 x0.03s (start 155.272) conf 1.00
+  Melody: A♯3 x0.05s (start 155.307) conf 1.00
+  Melody: D4 x0.19s (start 155.365) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 65  [0155.667 – 0158.035]  | Chord: Gm (conf 0.71)
+  Melody summary: avg conf 1.00, coverage 0.65
+  Melody: C♯4 x0.15s (start 155.667) conf 1.00
+  Melody: D4 x0.28s (start 155.818) conf 1.00
+  Melody: D♯4 x0.06s (start 156.096) conf 1.00
+  Melody: C♯4 x0.08s (start 156.154) conf 1.00
+  Melody: D4 x0.05s (start 156.235) conf 1.00
+  Melody: D4 x0.07s (start 156.375) conf 1.00
+  Melody: G4 x0.09s (start 156.816) conf 1.00
+  Melody: G4 x0.19s (start 156.979) conf 1.00
+  Melody: E4 x0.06s (start 157.246) conf 1.00
+  Melody: D♯4 x0.03s (start 157.304) conf 1.00
+  Melody: D4 x0.42s (start 157.338) conf 1.00
+  Melody: D4 x0.03s (start 157.965) conf 1.00
+  Melody: D4 x0.03s (start 158.000) conf 1.00
+  Drums 16-step: .S.S.S.S.K.S.S.S  (K:1 S:7)
+Bar 66  [0158.035 – 0160.427]  | Chord: Cm (conf 0.80)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: D4 x0.31s (start 158.035) conf 1.00
+  Melody: C4 x0.42s (start 158.348) conf 1.00
+  Melody: C4 x0.30s (start 158.766) conf 1.00
+  Melody: F3 x0.07s (start 159.103) conf 1.00
+  Melody: C4 x0.03s (start 159.208) conf 1.00
+  Melody: C♯4 x0.03s (start 159.266) conf 1.00
+  Melody: D4 x0.10s (start 159.300) conf 1.00
+  Melody: C♯4 x0.24s (start 159.509) conf 1.00
+  Melody: D4 x0.09s (start 159.800) conf 1.00
+  Melody: C4 x0.05s (start 159.916) conf 1.00
+  Melody: B3 x0.06s (start 159.962) conf 1.00
+  Melody: C♯4 x0.07s (start 160.020) conf 1.00
+  Melody: D4 x0.16s (start 160.090) conf 1.00
+  Melody: D4 x0.02s (start 160.403) conf 1.00
+  Drums 16-step: .S.S.S.S.S.SS..S  (K:0 S:8)
+Bar 67  [0160.427 – 0162.795]  | Chord: Gm (conf 0.73)
+  Melody summary: avg conf 1.00, coverage 0.63
+  Melody: D4 x0.55s (start 160.427) conf 1.00
+  Melody: G4 x0.29s (start 161.611) conf 1.00
+  Melody: D4 x0.09s (start 162.052) conf 1.00
+  Melody: C4 x0.03s (start 162.145) conf 1.00
+  Melody: D4 x0.20s (start 162.180) conf 1.00
+  Melody: B3 x0.07s (start 162.400) conf 1.00
+  Melody: D4 x0.27s (start 162.516) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 68  [0162.795 – 0165.164]  | Chord: Cm (conf 0.79)
+  Melody summary: avg conf 1.00, coverage 0.71
+  Melody: C4 x0.33s (start 162.795) conf 1.00
+  Melody: C4 x0.06s (start 163.143) conf 1.00
+  Melody: C4 x0.08s (start 163.550) conf 1.00
+  Melody: G4 x0.23s (start 163.736) conf 1.00
+  Melody: E4 x0.07s (start 163.979) conf 1.00
+  Melody: D4 x0.44s (start 164.246) conf 1.00
+  Melody: C♯4 x0.06s (start 164.688) conf 1.00
+  Melody: C4 x0.09s (start 164.746) conf 1.00
+  Melody: D4 x0.07s (start 164.850) conf 1.00
+  Melody: D4 x0.07s (start 164.920) conf 1.00
+  Melody: D4 x0.08s (start 164.989) conf 1.00
+  Melody: D4 x0.09s (start 165.071) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 69  [0165.164 – 0167.555]  | Chord: D (conf 0.84)
+  Melody summary: avg conf 1.00, coverage 0.85
+  Melody: D4 x0.09s (start 165.164) conf 1.00
+  Melody: B3 x0.09s (start 165.280) conf 1.00
+  Melody: C♯4 x0.03s (start 165.500) conf 1.00
+  Melody: C4 x0.17s (start 165.535) conf 1.00
+  Melody: D4 x0.27s (start 165.709) conf 1.00
+  Melody: C♯4 x0.07s (start 165.976) conf 1.00
+  Melody: F♯4 x0.56s (start 166.081) conf 1.00
+  Melody: E4 x0.03s (start 166.638) conf 1.00
+  Melody: D♯4 x0.06s (start 166.673) conf 1.00
+  Melody: D4 x0.60s (start 166.731) conf 1.00
+  Melody: D4 x0.06s (start 167.497) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 70  [0167.555 – 0169.924]  | Chord: D (conf 0.83)
+  Melody summary: avg conf 1.00, coverage 0.87
+  Melody: D4 x1.13s (start 167.555) conf 1.00
+  Melody: G♯4 x0.08s (start 168.774) conf 1.00
+  Melody: F4 x0.07s (start 168.879) conf 1.00
+  Melody: A♯4 x0.22s (start 168.972) conf 1.00
+  Melody: G4 x0.17s (start 169.204) conf 1.00
+  Melody: G4 x0.38s (start 169.540) conf 1.00
+  Drums 16-step: .S.S.SS.S..SSS.S  (K:0 S:9)
+Bar 71  [0169.924 – 0172.292]  | Chord: Gm (conf 0.77)
+  Melody summary: avg conf 1.00, coverage 0.84
+  Melody: G4 x0.02s (start 169.924) conf 1.00
+  Melody: G4 x0.35s (start 170.005) conf 1.00
+  Melody: D4 x0.19s (start 170.446) conf 1.00
+  Melody: C♯4 x0.20s (start 170.632) conf 1.00
+  Melody: A♯3 x0.05s (start 170.852) conf 1.00
+  Melody: C♯4 x0.41s (start 170.899) conf 1.00
+  Melody: C♯4 x0.23s (start 171.363) conf 1.00
+  Melody: C4 x0.07s (start 171.595) conf 1.00
+  Melody: C♯4 x0.14s (start 171.665) conf 1.00
+  Melody: D4 x0.34s (start 171.955) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 72  [0172.292 – 0174.591]  | Chord: D (conf 0.86)
+  Melody summary: avg conf 1.00, coverage 0.75
+  Melody: D4 x0.35s (start 172.292) conf 1.00
+  Melody: D♯4 x0.07s (start 172.640) conf 1.00
+  Melody: D4 x0.08s (start 172.710) conf 1.00
+  Melody: D4 x0.49s (start 172.791) conf 1.00
+  Melody: G4 x0.15s (start 173.383) conf 1.00
+  Melody: G4 x0.08s (start 173.801) conf 1.00
+  Melody: G4 x0.23s (start 174.045) conf 1.00
+  Melody: A♯4 x0.28s (start 174.301) conf 1.00
+  Drums 16-step: .S.S.S.S..SS.S..  (K:0 S:7)
+Bar 73  [0174.591 – 0177.052]  | Chord: D (conf 0.63)
+  Melody summary: avg conf 1.00, coverage 0.65
+  Melody: A♯3 x0.19s (start 174.928) conf 1.00
+  Melody: G♯4 x0.19s (start 175.206) conf 1.00
+  Melody: A♯4 x0.38s (start 175.554) conf 1.00
+  Melody: A♯4 x0.30s (start 176.112) conf 1.00
+  Melody: G4 x0.30s (start 176.460) conf 1.00
+  Melody: A♯4 x0.24s (start 176.808) conf 1.00
+  Drums 16-step: ......S..S.S.S.S  (K:0 S:5)
+Bar 74  [0177.052 – 0179.421]  | Chord: F (conf 0.71)
+  Melody summary: avg conf 1.00, coverage 1.00
+  Melody: A♯4 x2.09s (start 177.052) conf 1.00
+  Melody: G4 x0.28s (start 179.142) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 75  [0179.421 – 0181.812]  | Chord: Dm (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 1.00
+  Melody: G4 x1.27s (start 179.421) conf 1.00
+  Melody: F4 x0.03s (start 180.686) conf 1.00
+  Melody: E4 x0.03s (start 180.721) conf 1.00
+  Melody: D♯4 x0.05s (start 180.756) conf 1.00
+  Melody: D4 x1.01s (start 180.802) conf 1.00
+  Drums 16-step: .S.S.S.S.SS..S.S  (K:0 S:9)
+Bar 76  [0181.812 – 0184.181]  | Chord: Gm (conf 0.77)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: D4 x0.03s (start 181.812) conf 1.00
+  Melody: C♯4 x0.05s (start 181.847) conf 1.00
+  Melody: C4 x0.03s (start 181.894) conf 1.00
+  Melody: B3 x0.06s (start 181.928) conf 1.00
+  Melody: A♯3 x0.05s (start 181.986) conf 1.00
+  Melody: G3 x0.08s (start 182.126) conf 1.00
+  Melody: C♯4 x0.06s (start 182.230) conf 1.00
+  Melody: D4 x0.27s (start 182.288) conf 1.00
+  Melody: G3 x0.05s (start 182.579) conf 1.00
+  Melody: D4 x0.45s (start 182.660) conf 1.00
+  Melody: D♯4 x0.08s (start 183.113) conf 1.00
+  Melody: C♯4 x0.13s (start 183.194) conf 1.00
+  Melody: C♯4 x0.12s (start 183.461) conf 1.00
+  Melody: A♯3 x0.13s (start 183.589) conf 1.00
+  Melody: A3 x0.03s (start 183.716) conf 1.00
+  Melody: G3 x0.07s (start 183.774) conf 1.00
+  Melody: C♯4 x0.29s (start 183.890) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 77  [0184.181 – 0186.549]  | Chord: Gm (conf 0.69)
+  Melody summary: avg conf 1.00, coverage 0.82
+  Melody: C♯4 x0.28s (start 184.181) conf 1.00
+  Melody: C4 x0.14s (start 184.459) conf 1.00
+  Melody: A♯3 x0.14s (start 184.610) conf 1.00
+  Melody: G3 x0.07s (start 184.819) conf 1.00
+  Melody: C♯4 x0.44s (start 184.935) conf 1.00
+  Melody: C4 x0.12s (start 185.377) conf 1.00
+  Melody: C4 x0.03s (start 185.783) conf 1.00
+  Melody: C4 x0.37s (start 185.818) conf 1.00
+  Melody: D4 x0.36s (start 186.189) conf 1.00
+  Drums 16-step: .S.S.S.S.S.K.S.S  (K:1 S:7)
+Bar 78  [0186.549 – 0188.918]  | Chord: Gm (conf 0.68)
+  Melody summary: avg conf 1.00, coverage 0.91
+  Melody: D4 x0.33s (start 186.549) conf 1.00
+  Melody: C♯4 x0.06s (start 186.874) conf 1.00
+  Melody: C4 x0.05s (start 186.979) conf 1.00
+  Melody: C4 x0.17s (start 187.025) conf 1.00
+  Melody: A♯3 x0.23s (start 187.199) conf 1.00
+  Melody: B3 x0.05s (start 187.431) conf 1.00
+  Melody: C4 x0.05s (start 187.478) conf 1.00
+  Melody: D4 x0.67s (start 187.524) conf 1.00
+  Melody: G♯3 x0.03s (start 188.267) conf 1.00
+  Melody: A♯3 x0.13s (start 188.302) conf 1.00
+  Melody: A3 x0.03s (start 188.430) conf 1.00
+  Melody: B3 x0.05s (start 188.558) conf 1.00
+  Melody: C♯4 x0.31s (start 188.604) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:9)
+Bar 79  [0188.918 – 0191.309]  | Chord: Gm (conf 0.72)
+  Melody summary: avg conf 1.00, coverage 0.86
+  Melody: C♯4 x0.46s (start 188.918) conf 1.00
+  Melody: A♯3 x0.14s (start 189.382) conf 1.00
+  Melody: B3 x0.06s (start 189.614) conf 1.00
+  Melody: D4 x0.20s (start 189.719) conf 1.00
+  Melody: C♯4 x0.03s (start 189.916) conf 1.00
+  Melody: G4 x0.46s (start 190.067) conf 1.00
+  Melody: F♯4 x0.03s (start 190.531) conf 1.00
+  Melody: F♯4 x0.30s (start 190.566) conf 1.00
+  Melody: C♯4 x0.06s (start 190.903) conf 1.00
+  Melody: G4 x0.31s (start 190.996) conf 1.00
+  Drums 16-step: .S.K.SSS.S.S.S.S  (K:1 S:8)
+Bar 80  [0191.309 – 0193.678]  | Chord: Gm (conf 0.65)
+  Melody summary: avg conf 1.00, coverage 0.67
+  Melody: F4 x0.05s (start 191.321) conf 1.00
+  Melody: D5 x0.06s (start 191.414) conf 1.00
+  Melody: F5 x0.09s (start 191.739) conf 1.00
+  Melody: D5 x0.10s (start 191.843) conf 1.00
+  Melody: C4 x0.05s (start 192.064) conf 1.00
+  Melody: C♯4 x0.21s (start 192.110) conf 1.00
+  Melody: C4 x0.44s (start 192.470) conf 1.00
+  Melody: C4 x0.19s (start 193.039) conf 1.00
+  Melody: B3 x0.15s (start 193.225) conf 1.00
+  Melody: C4 x0.10s (start 193.434) conf 1.00
+  Melody: C4 x0.14s (start 193.538) conf 1.00
+  Drums 16-step: .SSS.S.X.S.X.S.S  (K:2 S:9)
+Bar 81  [0193.678 – 0196.069]  | Chord: Cm (conf 0.79)
+  Melody summary: avg conf 1.00, coverage 0.68
+  Melody: C4 x0.75s (start 193.678) conf 1.00
+  Melody: B3 x0.06s (start 194.432) conf 1.00
+  Melody: C4 x0.28s (start 194.490) conf 1.00
+  Melody: A♯3 x0.27s (start 195.257) conf 1.00
+  Melody: C4 x0.16s (start 195.640) conf 1.00
+  Melody: A♯3 x0.12s (start 195.849) conf 1.00
+  Drums 16-step: .S.S.SSS.SSS.SKS  (K:1 S:11)
+Bar 82  [0196.069 – 0198.438]  | Chord: D (conf 0.64)
+  Melody summary: avg conf 1.00, coverage 0.84
+  Melody: C4 x0.52s (start 196.127) conf 1.00
+  Melody: C4 x0.29s (start 196.650) conf 1.00
+  Melody: A♯3 x0.28s (start 196.952) conf 1.00
+  Melody: C4 x0.09s (start 197.300) conf 1.00
+  Melody: C♯4 x0.15s (start 197.404) conf 1.00
+  Melody: C4 x0.30s (start 197.683) conf 1.00
+  Melody: B3 x0.05s (start 197.985) conf 1.00
+  Melody: A♯3 x0.10s (start 198.031) conf 1.00
+  Melody: G♯3 x0.03s (start 198.159) conf 1.00
+  Melody: G3 x0.16s (start 198.194) conf 1.00
+  Drums 16-step: .SSS.S.S.SKS.SSS  (K:1 S:10)
+Bar 83  [0198.438 – 0200.806]  | Chord: Gm (conf 0.64)
+  Melody summary: avg conf 1.00, coverage 0.78
+  Melody: F3 x0.06s (start 198.438) conf 1.00
+  Melody: G3 x0.49s (start 198.496) conf 1.00
+  Melody: F♯3 x0.20s (start 198.983) conf 1.00
+  Melody: G3 x0.24s (start 199.181) conf 1.00
+  Melody: G♯5 x0.36s (start 199.552) conf 1.00
+  Melody: D4 x0.17s (start 200.063) conf 1.00
+  Melody: C4 x0.07s (start 200.272) conf 1.00
+  Melody: D4 x0.26s (start 200.353) conf 1.00
+  Drums 16-step: .SSS.S.S.SSS.S.S  (K:0 S:13)
+Bar 84  [0200.806 – 0203.198]  | Chord: G (conf 0.69)
+  Melody summary: avg conf 1.00, coverage 0.68
+  Melody: D4 x0.31s (start 200.853) conf 1.00
+  Melody: D4 x0.36s (start 201.340) conf 1.00
+  Melody: G♯3 x0.07s (start 201.723) conf 1.00
+  Melody: C3 x0.06s (start 201.863) conf 1.00
+  Melody: C♯3 x0.06s (start 201.921) conf 1.00
+  Melody: D4 x0.16s (start 202.037) conf 1.00
+  Melody: C4 x0.10s (start 202.443) conf 1.00
+  Melody: B3 x0.05s (start 202.548) conf 1.00
+  Melody: A♯3 x0.12s (start 202.594) conf 1.00
+  Melody: C♯4 x0.34s (start 202.861) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 85  [0203.198 – 0205.566]  | Chord: Gm (conf 0.69)
+  Melody summary: avg conf 1.00, coverage 0.91
+  Melody: C♯4 x0.39s (start 203.198) conf 1.00
+  Melody: C4 x0.17s (start 203.593) conf 1.00
+  Melody: A♯3 x0.16s (start 203.767) conf 1.00
+  Melody: C4 x0.03s (start 203.929) conf 1.00
+  Melody: C♯4 x0.13s (start 203.964) conf 1.00
+  Melody: D4 x0.17s (start 204.092) conf 1.00
+  Melody: C♯4 x0.05s (start 204.266) conf 1.00
+  Melody: C♯4 x0.28s (start 204.336) conf 1.00
+  Melody: C4 x0.03s (start 204.614) conf 1.00
+  Melody: D4 x0.33s (start 204.672) conf 1.00
+  Melody: C♯4 x0.10s (start 205.044) conf 1.00
+  Melody: D4 x0.29s (start 205.276) conf 1.00
+  Drums 16-step: .S.S.S.S.SSSSS.S  (K:0 S:10)
+Bar 86  [0205.566 – 0207.935]  | Chord: Cm (conf 0.81)
+  Melody summary: avg conf 1.00, coverage 0.91
+  Melody: D4 x0.09s (start 205.566) conf 1.00
+  Melody: C4 x0.37s (start 205.682) conf 1.00
+  Melody: A♯3 x0.38s (start 206.065) conf 1.00
+  Melody: B3 x0.03s (start 206.449) conf 1.00
+  Melody: C4 x0.05s (start 206.483) conf 1.00
+  Melody: D4 x0.35s (start 206.530) conf 1.00
+  Melody: C4 x0.03s (start 206.878) conf 1.00
+  Melody: C4 x0.21s (start 206.913) conf 1.00
+  Melody: A♯3 x0.30s (start 207.134) conf 1.00
+  Melody: C4 x0.03s (start 207.610) conf 1.00
+  Melody: D4 x0.29s (start 207.644) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 87  [0207.935 – 0210.326]  | Chord: D (conf 0.80)
+  Melody summary: avg conf 1.00, coverage 0.64
+  Melody: D4 x0.49s (start 207.935) conf 1.00
+  Melody: C♯4 x0.05s (start 208.422) conf 1.00
+  Melody: C♯4 x0.14s (start 208.469) conf 1.00
+  Melody: C4 x0.06s (start 208.968) conf 1.00
+  Melody: A3 x0.14s (start 209.223) conf 1.00
+  Melody: G4 x0.15s (start 209.444) conf 1.00
+  Melody: F4 x0.24s (start 209.676) conf 1.00
+  Melody: G4 x0.27s (start 209.920) conf 1.00
+  Drums 16-step: .S.S.SSS.S.SS.SS  (K:0 S:10)
+Bar 88  [0210.326 – 0212.695]  | Chord: Gm (conf 0.70)
+  Melody summary: avg conf 1.00, coverage 0.79
+  Melody: F♯4 x0.03s (start 210.326) conf 1.00
+  Melody: G4 x0.16s (start 210.361) conf 1.00
+  Melody: F4 x0.03s (start 210.535) conf 1.00
+  Melody: E4 x0.06s (start 210.570) conf 1.00
+  Melody: G3 x0.12s (start 210.698) conf 1.00
+  Melody: C♯4 x0.15s (start 210.849) conf 1.00
+  Melody: C♯4 x0.70s (start 211.185) conf 1.00
+  Melody: A♯3 x0.29s (start 211.894) conf 1.00
+  Melody: C4 x0.33s (start 212.370) conf 1.00
+  Drums 16-step: .S.S.S.S.K.S.K.S  (K:2 S:6)
+Bar 89  [0212.695 – 0215.063]  | Chord: D# (conf 0.78)
+  Melody summary: avg conf 1.00, coverage 0.87
+  Melody: C4 x0.29s (start 212.695) conf 1.00
+  Melody: C♯4 x0.08s (start 212.985) conf 1.00
+  Melody: B3 x0.05s (start 213.066) conf 1.00
+  Melody: C♯4 x0.09s (start 213.113) conf 1.00
+  Melody: C4 x0.19s (start 213.206) conf 1.00
+  Melody: C4 x0.30s (start 213.391) conf 1.00
+  Melody: F♯3 x0.09s (start 213.728) conf 1.00
+  Melody: A♯3 x0.20s (start 213.867) conf 1.00
+  Melody: C4 x0.20s (start 214.181) conf 1.00
+  Melody: A♯3 x0.16s (start 214.378) conf 1.00
+  Melody: C♯4 x0.42s (start 214.645) conf 1.00
+  Drums 16-step: .SSS.S.S.K.S.S.S  (K:1 S:9)
+Bar 90  [0215.063 – 0217.455]  | Chord: D (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.78
+  Melody: C4 x0.51s (start 215.133) conf 1.00
+  Melody: A♯3 x0.31s (start 215.655) conf 1.00
+  Melody: C♯4 x0.19s (start 215.992) conf 1.00
+  Melody: C4 x0.16s (start 216.398) conf 1.00
+  Melody: A3 x0.12s (start 216.631) conf 1.00
+  Melody: A♯3 x0.08s (start 216.851) conf 1.00
+  Melody: G3 x0.33s (start 216.956) conf 1.00
+  Melody: G3 x0.06s (start 217.281) conf 1.00
+  Melody: G3 x0.12s (start 217.339) conf 1.00
+  Drums 16-step: .S.S.SSS.S.S.S.S  (K:0 S:11)
+Bar 91  [0217.455 – 0219.823]  | Chord: Gm (conf 0.73)
+  Melody summary: avg conf 1.00, coverage 0.57
+  Melody: G3 x0.42s (start 217.455) conf 1.00
+  Melody: G♯3 x0.05s (start 217.873) conf 1.00
+  Melody: A3 x0.05s (start 217.919) conf 1.00
+  Melody: G♯3 x0.07s (start 217.966) conf 1.00
+  Melody: G3 x0.03s (start 218.035) conf 1.00
+  Melody: A♯3 x0.03s (start 218.082) conf 1.00
+  Melody: E3 x0.07s (start 218.140) conf 1.00
+  Melody: F♯3 x0.06s (start 218.210) conf 1.00
+  Melody: C3 x0.12s (start 219.045) conf 1.00
+  Melody: A♯3 x0.12s (start 219.243) conf 1.00
+  Melody: A3 x0.06s (start 219.487) conf 1.00
+  Melody: A♯3 x0.28s (start 219.545) conf 1.00
+  Drums 16-step: .SSS.S.SSS.S.S.S  (K:0 S:12)
+Bar 92  [0219.823 – 0222.192]  | Chord: Gm (conf 0.64)
+  Melody summary: avg conf 1.00, coverage 0.69
+  Melody: A♯3 x0.10s (start 219.823) conf 1.00
+  Melody: A3 x0.05s (start 219.928) conf 1.00
+  Melody: G♯3 x0.08s (start 219.974) conf 1.00
+  Melody: G3 x0.05s (start 220.056) conf 1.00
+  Melody: G♯3 x0.12s (start 220.102) conf 1.00
+  Melody: F♯3 x0.09s (start 220.218) conf 1.00
+  Melody: A3 x0.03s (start 220.381) conf 1.00
+  Melody: A♯3 x0.19s (start 220.415) conf 1.00
+  Melody: A♯3 x0.30s (start 220.671) conf 1.00
+  Melody: A♯3 x0.29s (start 221.542) conf 1.00
+  Melody: A3 x0.03s (start 221.832) conf 1.00
+  Melody: G♯3 x0.05s (start 221.867) conf 1.00
+  Melody: A♯3 x0.26s (start 221.936) conf 1.00
+  Drums 16-step: .SSSSS.SS..S.S.S  (K:0 S:10)
+Bar 93  [0222.192 – 0224.583]  | Chord: Gm (conf 0.70)
+  Melody summary: avg conf 1.00, coverage 0.89
+  Melody: G3 x0.36s (start 222.215) conf 1.00
+  Melody: C4 x0.63s (start 222.633) conf 1.00
+  Melody: A♯3 x0.22s (start 223.283) conf 1.00
+  Melody: A♯3 x0.41s (start 223.504) conf 1.00
+  Melody: C4 x0.16s (start 223.945) conf 1.00
+  Melody: D4 x0.36s (start 224.223) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:10)
+Bar 94  [0224.583 – 0226.952]  | Chord: D# (conf 0.90)
+  Melody summary: avg conf 1.00, coverage 0.78
+  Melody: D4 x0.57s (start 224.583) conf 1.00
+  Melody: C♯4 x0.10s (start 225.152) conf 1.00
+  Melody: C♯4 x0.43s (start 225.466) conf 1.00
+  Melody: C4 x0.29s (start 225.895) conf 1.00
+  Melody: C♯4 x0.09s (start 226.232) conf 1.00
+  Melody: B3 x0.20s (start 226.348) conf 1.00
+  Melody: C♯4 x0.06s (start 226.778) conf 1.00
+  Melody: C4 x0.09s (start 226.836) conf 1.00
+  Melody: D4 x0.02s (start 226.929) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 95  [0226.952 – 0229.320]  | Chord: D (conf 0.88)
+  Melody summary: avg conf 1.00, coverage 1.00
+  Melody: D4 x2.37s (start 226.952) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 96  [0229.320 – 0231.712]  | Chord: D (conf 0.80)
+  Melody summary: avg conf 1.00, coverage 0.88
+  Melody: D4 x0.93s (start 229.320) conf 1.00
+  Melody: C4 x0.12s (start 230.272) conf 1.00
+  Melody: C♯4 x0.05s (start 230.551) conf 1.00
+  Melody: D4 x0.12s (start 230.597) conf 1.00
+  Melody: C♯4 x0.12s (start 230.806) conf 1.00
+  Melody: D4 x0.13s (start 230.922) conf 1.00
+  Melody: D4 x0.33s (start 231.050) conf 1.00
+  Melody: C4 x0.08s (start 231.375) conf 1.00
+  Melody: C♯4 x0.12s (start 231.457) conf 1.00
+  Melody: D4 x0.14s (start 231.573) conf 1.00
+  Drums 16-step: .SS..S.........S  (K:0 S:4)
+Bar 97  [0231.712 – 0234.080]  | Chord: Dm (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: D4 x0.05s (start 231.712) conf 1.00
+  Melody: C4 x0.05s (start 231.851) conf 1.00
+  Melody: C♯4 x0.06s (start 231.898) conf 1.00
+  Melody: D4 x0.19s (start 231.956) conf 1.00
+  Melody: C♯4 x0.16s (start 232.141) conf 1.00
+  Melody: D4 x0.10s (start 232.304) conf 1.00
+  Melody: C♯4 x0.71s (start 232.571) conf 1.00
+  Melody: A♯3 x0.37s (start 233.279) conf 1.00
+  Melody: D4 x0.29s (start 233.790) conf 1.00
+  Drums 16-step: ...S.S.S...S...S  (K:0 S:5)
+Bar 98  [0234.080 – 0236.449]  | Chord: Gm (conf 0.64)
+  Melody summary: avg conf 1.00, coverage 0.80
+  Melody: D4 x1.08s (start 234.080) conf 1.00
+  Melody: D4 x0.19s (start 235.276) conf 1.00
+  Melody: D4 x0.21s (start 235.578) conf 1.00
+  Melody: C♯4 x0.12s (start 235.787) conf 1.00
+  Melody: D4 x0.26s (start 236.019) conf 1.00
+  Melody: C4 x0.06s (start 236.379) conf 1.00
+  Drums 16-step: ...S.S.S...S...S  (K:0 S:5)
+Bar 99  [0236.449 – 0238.840]  | Chord: F (conf 0.71)
+  Melody summary: avg conf 1.00, coverage 0.89
+  Melody: D4 x0.30s (start 236.449) conf 1.00
+  Melody: C4 x0.37s (start 236.751) conf 1.00
+  Melody: A♯3 x0.20s (start 237.122) conf 1.00
+  Melody: B3 x0.03s (start 237.320) conf 1.00
+  Melody: C4 x0.03s (start 237.354) conf 1.00
+  Melody: D4 x0.36s (start 237.389) conf 1.00
+  Melody: C4 x0.26s (start 237.749) conf 1.00
+  Melody: A♯3 x0.28s (start 238.225) conf 1.00
+  Melody: A3 x0.10s (start 238.504) conf 1.00
+  Melody: A♯3 x0.20s (start 238.643) conf 1.00
+  Drums 16-step: ...S...S...S.S.S  (K:0 S:5)
+Bar 100  [0238.840 – 0241.209]  | Chord: Gm (conf 0.59)
+  Melody summary: avg conf 1.00, coverage 0.81
+  Melody: A♯3 x0.07s (start 238.840) conf 1.00
+  Melody: A3 x0.79s (start 238.910) conf 1.00
+  Melody: F4 x0.03s (start 240.013) conf 1.00
+  Melody: F♯4 x0.03s (start 240.048) conf 1.00
+  Melody: G4 x0.13s (start 240.083) conf 1.00
+  Melody: G4 x0.17s (start 240.327) conf 1.00
+  Melody: F4 x0.24s (start 240.512) conf 1.00
+  Melody: F♯4 x0.06s (start 240.756) conf 1.00
+  Melody: G4 x0.27s (start 240.814) conf 1.00
+  Melody: F4 x0.05s (start 241.081) conf 1.00
+  Melody: E4 x0.05s (start 241.128) conf 1.00
+  Melody: E4 x0.03s (start 241.174) conf 1.00
+  Drums 16-step: .S.S.S.S...SS..S  (K:0 S:7)
+Bar 101  [0241.209 – 0243.577]  | Chord: Gm (conf 0.57)
+  Melody summary: avg conf 1.00, coverage 0.95
+  Melody: D♯4 x0.05s (start 241.209) conf 1.00
+  Melody: D4 x0.10s (start 241.255) conf 1.00
+  Melody: C4 x0.68s (start 241.360) conf 1.00
+  Melody: C4 x0.55s (start 242.091) conf 1.00
+  Melody: C4 x0.20s (start 242.637) conf 1.00
+  Melody: A♯3 x0.19s (start 242.846) conf 1.00
+  Melody: G♯3 x0.03s (start 243.043) conf 1.00
+  Melody: C♯4 x0.28s (start 243.125) conf 1.00
+  Melody: C4 x0.17s (start 243.403) conf 1.00
+  Drums 16-step: ...S...S...S.S.S  (K:0 S:5)
+Bar 102  [0243.577 – 0245.946]  | Chord: Cm (conf 0.61)
+  Melody summary: avg conf 1.00, coverage 0.89
+  Melody: C4 x0.33s (start 243.577) conf 1.00
+  Melody: C4 x0.30s (start 243.902) conf 1.00
+  Melody: C♯4 x0.16s (start 244.204) conf 1.00
+  Melody: C♯4 x0.09s (start 244.367) conf 1.00
+  Melody: C4 x0.06s (start 244.518) conf 1.00
+  Melody: C♯4 x0.14s (start 244.576) conf 1.00
+  Melody: E3 x0.10s (start 244.820) conf 1.00
+  Melody: G3 x0.07s (start 244.947) conf 1.00
+  Melody: A♯3 x0.24s (start 245.063) conf 1.00
+  Melody: C4 x0.55s (start 245.307) conf 1.00
+  Melody: G3 x0.07s (start 245.876) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S...S  (K:0 S:7)
+Bar 103  [0245.946 – 0248.337]  | Chord: D (conf 0.62)
+  Melody summary: avg conf 1.00, coverage 0.77
+  Melody: C4 x0.53s (start 245.969) conf 1.00
+  Melody: A♯3 x0.12s (start 246.515) conf 1.00
+  Melody: G♯3 x0.06s (start 246.747) conf 1.00
+  Melody: C4 x0.16s (start 246.817) conf 1.00
+  Melody: D4 x0.09s (start 246.979) conf 1.00
+  Melody: B3 x0.03s (start 247.234) conf 1.00
+  Melody: C4 x0.12s (start 247.269) conf 1.00
+  Melody: G3 x0.06s (start 247.478) conf 1.00
+  Melody: G3 x0.66s (start 247.676) conf 1.00
+  Drums 16-step: ...S...SS..S.S.S  (K:0 S:6)
+Bar 104  [0248.337 – 0250.706]  | Chord: Gm (conf 0.63)
+  Melody summary: avg conf 1.00, coverage 0.82
+  Melody: G3 x0.02s (start 248.337) conf 1.00
+  Melody: G3 x0.06s (start 248.361) conf 1.00
+  Melody: G♯3 x0.09s (start 248.419) conf 1.00
+  Melody: G3 x0.09s (start 248.512) conf 1.00
+  Melody: G3 x0.35s (start 248.604) conf 1.00
+  Melody: G♯3 x0.12s (start 248.953) conf 1.00
+  Melody: G3 x0.07s (start 249.069) conf 1.00
+  Melody: E3 x0.09s (start 249.359) conf 1.00
+  Melody: D4 x0.22s (start 249.533) conf 1.00
+  Melody: D4 x0.28s (start 249.754) conf 1.00
+  Melody: C♯4 x0.22s (start 250.102) conf 1.00
+  Melody: A♯3 x0.06s (start 250.369) conf 1.00
+  Melody: D4 x0.27s (start 250.439) conf 1.00
+  Drums 16-step: .S.S.S....SS.S.S  (K:0 S:7)
+Bar 105  [0250.706 – 0253.098]  | Chord: Gm (conf 0.79)
+  Melody summary: avg conf 1.00, coverage 0.48
+  Melody: D4 x0.33s (start 250.706) conf 1.00
+  Melody: F♯4 x0.10s (start 251.054) conf 1.00
+  Melody: G4 x0.09s (start 251.159) conf 1.00
+  Melody: C3 x0.05s (start 252.215) conf 1.00
+  Melody: F3 x0.03s (start 252.296) conf 1.00
+  Melody: C4 x0.09s (start 252.401) conf 1.00
+  Melody: A♯3 x0.13s (start 252.494) conf 1.00
+  Melody: C♯4 x0.31s (start 252.784) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.K.S  (K:1 S:7)
+Bar 106  [0253.098 – 0255.466]  | Chord: Gm (conf 0.76)
+  Melody summary: avg conf 1.00, coverage 0.81
+  Melody: C♯4 x0.27s (start 253.098) conf 1.00
+  Melody: C4 x0.15s (start 253.365) conf 1.00
+  Melody: A♯3 x0.17s (start 253.539) conf 1.00
+  Melody: D4 x0.39s (start 253.829) conf 1.00
+  Melody: C♯4 x0.09s (start 254.224) conf 1.00
+  Melody: D4 x0.15s (start 254.317) conf 1.00
+  Melody: C♯4 x0.03s (start 254.560) conf 1.00
+  Melody: C♯4 x0.14s (start 254.595) conf 1.00
+  Melody: D4 x0.16s (start 254.885) conf 1.00
+  Melody: C4 x0.19s (start 255.060) conf 1.00
+  Melody: A3 x0.05s (start 255.280) conf 1.00
+  Melody: B3 x0.03s (start 255.327) conf 1.00
+  Melody: C4 x0.05s (start 255.385) conf 1.00
+  Melody: C♯4 x0.03s (start 255.431) conf 1.00
+  Drums 16-step: .S.S.S.S.SS..S.S  (K:0 S:10)
+Bar 107  [0255.466 – 0257.834]  | Chord: Cm (conf 0.77)
+  Melody summary: avg conf 1.00, coverage 0.85
+  Melody: C♯4 x0.02s (start 255.466) conf 1.00
+  Melody: D4 x0.13s (start 255.489) conf 1.00
+  Melody: C4 x0.42s (start 255.628) conf 1.00
+  Melody: B3 x0.13s (start 256.070) conf 1.00
+  Melody: C4 x0.10s (start 256.325) conf 1.00
+  Melody: C4 x0.70s (start 256.430) conf 1.00
+  Melody: G♯3 x0.03s (start 257.173) conf 1.00
+  Melody: C4 x0.14s (start 257.219) conf 1.00
+  Melody: A♯3 x0.16s (start 257.370) conf 1.00
+  Melody: D4 x0.17s (start 257.660) conf 1.00
+  Drums 16-step: .SSS.S.S.S.S.S.S  (K:0 S:9)
+Bar 108  [0257.834 – 0260.226]  | Chord: Gm (conf 0.82)
+  Melody summary: avg conf 1.00, coverage 0.75
+  Melody: D4 x0.41s (start 257.834) conf 1.00
+  Melody: D4 x0.48s (start 258.241) conf 1.00
+  Melody: F♯3 x0.09s (start 259.053) conf 1.00
+  Melody: G3 x0.08s (start 259.146) conf 1.00
+  Melody: B3 x0.05s (start 259.274) conf 1.00
+  Melody: G4 x0.28s (start 259.355) conf 1.00
+  Melody: G4 x0.36s (start 259.750) conf 1.00
+  Melody: F♯4 x0.06s (start 260.168) conf 1.00
+  Drums 16-step: .S.S.SSS.S.SS..S  (K:0 S:11)
+Bar 109  [0260.226 – 0262.594]  | Chord: Gm (conf 0.76)
+  Melody summary: avg conf 1.00, coverage 0.83
+  Melody: F♯4 x0.02s (start 260.226) conf 1.00
+  Melody: G4 x0.24s (start 260.249) conf 1.00
+  Melody: F♯4 x0.43s (start 260.574) conf 1.00
+  Melody: F4 x0.06s (start 261.004) conf 1.00
+  Melody: F4 x0.03s (start 261.062) conf 1.00
+  Melody: D4 x0.28s (start 261.364) conf 1.00
+  Melody: C♯4 x0.43s (start 261.642) conf 1.00
+  Melody: A♯3 x0.31s (start 262.084) conf 1.00
+  Melody: F♯3 x0.06s (start 262.420) conf 1.00
+  Melody: C4 x0.09s (start 262.502) conf 1.00
+  Drums 16-step: .S.S.SSS.S.S.S.S  (K:0 S:9)
+Bar 110  [0262.594 – 0264.963]  | Chord: D# (conf 0.82)
+  Melody summary: avg conf 1.00, coverage 0.92
+  Melody: C4 x0.28s (start 262.594) conf 1.00
+  Melody: C4 x0.68s (start 262.873) conf 1.00
+  Melody: C♯4 x0.06s (start 263.558) conf 1.00
+  Melody: C4 x0.07s (start 263.709) conf 1.00
+  Melody: A♯3 x0.48s (start 263.802) conf 1.00
+  Melody: C4 x0.13s (start 264.324) conf 1.00
+  Melody: A♯3 x0.21s (start 264.487) conf 1.00
+  Melody: C♯4 x0.27s (start 264.696) conf 1.00
+  Drums 16-step: .S.S.SSSSSSS.S.S  (K:0 S:11)
+Bar 111  [0264.963 – 0267.355]  | Chord: D (conf 0.65)
+  Melody summary: avg conf 1.00, coverage 0.82
+  Melody: C♯4 x0.30s (start 264.963) conf 1.00
+  Melody: C4 x0.14s (start 265.265) conf 1.00
+  Melody: A♯3 x0.19s (start 265.416) conf 1.00
+  Melody: B3 x0.07s (start 265.601) conf 1.00
+  Melody: B3 x0.05s (start 265.810) conf 1.00
+  Melody: C♯4 x0.43s (start 265.857) conf 1.00
+  Melody: C4 x0.08s (start 266.426) conf 1.00
+  Melody: G3 x0.08s (start 266.588) conf 1.00
+  Melody: G3 x0.14s (start 266.728) conf 1.00
+  Melody: G3 x0.06s (start 266.867) conf 1.00
+  Melody: F3 x0.03s (start 266.925) conf 1.00
+  Melody: F♯3 x0.03s (start 266.960) conf 1.00
+  Melody: G3 x0.36s (start 266.995) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 112  [0267.355 – 0269.723]  | Chord: Gm (conf 0.74)
+  Melody summary: avg conf 1.00, coverage 0.51
+  Melody: G3 x0.60s (start 267.355) conf 1.00
+  Melody: F3 x0.27s (start 267.958) conf 1.00
+  Melody: E3 x0.12s (start 269.375) conf 1.00
+  Melody: F♯3 x0.03s (start 269.491) conf 1.00
+  Melody: G3 x0.20s (start 269.526) conf 1.00
+  Drums 16-step: .SSS.SS.SSSS.S.S  (K:0 S:12)
+Bar 113  [0269.723 – 0272.091]  | Chord: Gm (conf 0.63)
+  Melody summary: avg conf 1.00, coverage 0.87
+  Melody: G3 x0.50s (start 269.723) conf 1.00
+  Melody: F3 x0.05s (start 270.222) conf 1.00
+  Melody: G3 x0.36s (start 270.269) conf 1.00
+  Melody: A3 x0.21s (start 270.675) conf 1.00
+  Melody: A3 x0.58s (start 271.035) conf 1.00
+  Melody: A3 x0.06s (start 271.720) conf 1.00
+  Melody: A♯3 x0.31s (start 271.778) conf 1.00
+  Drums 16-step: .SSSKS.S.SSS.X.S  (K:2 S:10)
+Bar 114  [0272.091 – 0274.483]  | Chord: D# (conf 0.80)
+  Melody summary: avg conf 1.00, coverage 0.80
+  Melody: A♯3 x0.08s (start 272.254) conf 1.00
+  Melody: A♯3 x0.29s (start 272.335) conf 1.00
+  Melody: A3 x0.03s (start 272.625) conf 1.00
+  Melody: C4 x0.20s (start 272.707) conf 1.00
+  Melody: C4 x0.20s (start 272.997) conf 1.00
+  Melody: A♯3 x0.63s (start 273.194) conf 1.00
+  Melody: G4 x0.20s (start 273.856) conf 1.00
+  Melody: C♯4 x0.21s (start 274.170) conf 1.00
+  Melody: C4 x0.08s (start 274.402) conf 1.00
+  Drums 16-step: .SSS.S.S.S.S.S.S  (K:0 S:11)
+Bar 115  [0274.483 – 0276.852]  | Chord: D# (conf 0.83)
+  Melody summary: avg conf 1.00, coverage 0.92
+  Melody: C4 x0.55s (start 274.483) conf 1.00
+  Melody: A♯3 x0.09s (start 275.040) conf 1.00
+  Melody: C4 x0.07s (start 275.226) conf 1.00
+  Melody: D4 x0.34s (start 275.296) conf 1.00
+  Melody: C4 x0.44s (start 275.632) conf 1.00
+  Melody: C4 x0.05s (start 276.074) conf 1.00
+  Melody: A3 x0.07s (start 276.155) conf 1.00
+  Melody: A♯3 x0.19s (start 276.225) conf 1.00
+  Melody: D4 x0.39s (start 276.457) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 116  [0276.852 – 0279.243]  | Chord: D (conf 0.79)
+  Melody summary: avg conf 1.00, coverage 0.96
+  Melody: D4 x1.40s (start 276.852) conf 1.00
+  Melody: A3 x0.03s (start 278.280) conf 1.00
+  Melody: D♯4 x0.03s (start 278.361) conf 1.00
+  Melody: E4 x0.12s (start 278.396) conf 1.00
+  Melody: C4 x0.22s (start 278.523) conf 1.00
+  Melody: B3 x0.07s (start 278.744) conf 1.00
+  Melody: D4 x0.41s (start 278.837) conf 1.00
+  Drums 16-step: .S.S.S.S.S.S.S.S  (K:0 S:8)
+Bar 117  [0279.243 – 0281.913]  | Chord: Am (conf 0.61)
+  Melody summary: avg conf 1.00, coverage 0.56
+  Melody: D4 x0.66s (start 279.243) conf 1.00
+  Melody: D♯4 x0.20s (start 280.985) conf 1.00
+  Melody: D♯4 x0.22s (start 281.287) conf 1.00
+  Melody: D4 x0.41s (start 281.507) conf 1.00
+  Drums 16-step: .SSSSS.S.SS.SS.S  (K:0 S:11)
+Bar 118  [0281.913 – 0282.552]  | Chord: Gm (conf 0.63)
+  Melody summary: avg conf 1.00, coverage 1.00
+  Melody: D4 x0.24s (start 281.913) conf 1.00
+  Melody: C♯4 x0.34s (start 282.157) conf 1.00
+  Melody: D4 x0.06s (start 282.494) conf 1.00
+  Drums 16-step: .....S.......K..  (K:1 S:1)
