@@ -1,0 +1,13 @@
+# Core DSP
+numpy
+scipy
+librosa>=0.10.1
+soundfile
+tqdm
+
+# Melody extraction (fast CPU-compatible; downloads a small model at first run)
+crepe
+
+# Optional (UNCOMMENT one of these if you want to run separation from Python instead of CLI)
+# demucs
+# spleeter
